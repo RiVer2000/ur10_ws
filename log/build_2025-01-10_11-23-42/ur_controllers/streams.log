@@ -1,0 +1,178 @@
+[0.018s] Invoking command in '/home/river2000/ur10_ws/build/ur_controllers': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/river2000/ur10_ws/install/ur_dashboard_msgs/lib:/home/river2000/ur10_ws/install/ur_robot_driver/lib:/home/river2000/ur10_ws/install/ur_controllers/lib:/usr/local/cuda-11.8/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_controllers -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/river2000/ur10_ws/install/ur_controllers
+[0.101s] -- The C compiler identification is GNU 12.3.0
+[0.193s] -- The CXX compiler identification is GNU 11.4.0
+[0.216s] -- Detecting C compiler ABI info
+[0.306s] -- Detecting C compiler ABI info - done
+[0.323s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.323s] -- Detecting C compile features
+[0.324s] -- Detecting C compile features - done
+[0.330s] -- Detecting CXX compiler ABI info
+[0.436s] -- Detecting CXX compiler ABI info - done
+[0.456s] -- Check for working CXX compiler: /usr/lib/ccache/g++ - skipped
+[0.456s] -- Detecting CXX compile features
+[0.457s] -- Detecting CXX compile features - done
+[0.466s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.906s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.966s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.033s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[1.037s] -- Found controller_interface: 2.46.0 (/opt/ros/humble/share/controller_interface/cmake)
+[1.086s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.093s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.102s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.115s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.132s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.342s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.345s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.372s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.468s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.470s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.497s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.500s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.508s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.518s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.529s] -- Looking for pthread.h
+[1.607s] -- Looking for pthread.h - found
+[1.607s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.688s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.690s] -- Found Threads: TRUE  
+[1.748s] -- Found joint_trajectory_controller: 2.39.0 (/opt/ros/humble/share/joint_trajectory_controller/cmake)
+[1.778s] -- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.813s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[1.823s] -- Found tf2_geometry_msgs: 0.25.9 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.834s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.835s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.835s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.890s] -- Found ur_dashboard_msgs: 2.5.1 (/home/river2000/ur10_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+[1.906s] -- Found ur_msgs: 2.1.0 (/opt/ros/humble/share/ur_msgs/cmake)
+[1.940s] -- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[1.943s] -- Found controller_manager: 2.46.0 (/opt/ros/humble/share/controller_manager/cmake)
+[1.966s] -- Found ros2_control_test_assets: 2.46.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)
+[1.969s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.975s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.976s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.082s] -- Configuring done
+[2.175s] -- Generating done
+[2.190s] -- Build files have been written to: /home/river2000/ur10_ws/build/ur_controllers
+[2.205s] Invoked command in '/home/river2000/ur10_ws/build/ur_controllers' returned '0': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/river2000/ur10_ws/install/ur_dashboard_msgs/lib:/home/river2000/ur10_ws/install/ur_robot_driver/lib:/home/river2000/ur10_ws/install/ur_controllers/lib:/usr/local/cuda-11.8/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_controllers -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/river2000/ur10_ws/install/ur_controllers
+[2.208s] Invoking command in '/home/river2000/ur10_ws/build/ur_controllers': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/river2000/ur10_ws/install/ur_dashboard_msgs/lib:/home/river2000/ur10_ws/install/ur_robot_driver/lib:/home/river2000/ur10_ws/install/ur_controllers/lib:/usr/local/cuda-11.8/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/river2000/ur10_ws/build/ur_controllers -- -j16 -l16
+[2.280s] [ 16%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/river2000/ur10_ws/build/ur_controllers/speed_scaling_state_broadcaster_parameters/include//speed_scaling_state_broadcaster_parameters.hpp /home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/speed_scaling_state_broadcaster_parameters.yaml `[0m
+[2.280s] [ 16%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/river2000/ur10_ws/build/ur_controllers/ur_configuration_controller_parameters/include//ur_configuration_controller_parameters.hpp /home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/ur_configuration_controller_parameters.yaml `[0m
+[2.280s] [ 16%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/river2000/ur10_ws/build/ur_controllers/force_mode_controller_parameters/include//force_mode_controller_parameters.hpp /home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/force_mode_controller_parameters.yaml `[0m
+[2.280s] [ 16%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/river2000/ur10_ws/build/ur_controllers/freedrive_mode_controller_parameters/include//freedrive_mode_controller_parameters.hpp /home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller_parameters.yaml `[0m
+[2.281s] [ 20%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[2.284s] [ 25%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[2.284s] [ 29%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[2.288s] [ 33%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/river2000/ur10_ws/build/ur_controllers/gpio_controller_parameters/include//gpio_controller_parameters.hpp /home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller_parameters.yaml `[0m
+[2.291s] [ 41%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/river2000/ur10_ws/build/ur_controllers/scaled_joint_trajectory_controller_parameters/include//scaled_joint_trajectory_controller_parameters.hpp /home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/scaled_joint_trajectory_controller_parameters.yaml `[0m
+[2.291s] [ 41%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/river2000/ur10_ws/build/ur_controllers/passthrough_trajectory_controller_parameters/include//passthrough_trajectory_controller_parameters.hpp /home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/passthrough_trajectory_controller_parameters.yaml `[0m
+[2.309s] [ 45%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[2.310s] [ 50%] [32m[1mLinking CXX static library libgmock.a[0m
+[2.357s] [ 50%] Built target gmock_main
+[2.370s] [ 50%] Built target gmock
+[2.467s] [ 50%] Built target ur_configuration_controller_parameters
+[2.479s] [ 50%] Built target force_mode_controller_parameters
+[2.484s] [ 50%] Built target speed_scaling_state_broadcaster_parameters
+[2.487s] [ 50%] Built target scaled_joint_trajectory_controller_parameters
+[2.487s] [ 50%] Built target gpio_controller_parameters
+[2.502s] [ 50%] Built target freedrive_mode_controller_parameters
+[2.523s] [ 50%] Built target passthrough_trajectory_controller_parameters
+[2.551s] [ 54%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/force_mode_controller.cpp.o[0m
+[2.552s] [ 70%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/passthrough_trajectory_controller.cpp.o[0m
+[2.552s] [ 70%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/freedrive_mode_controller.cpp.o[0m
+[2.552s] [ 70%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/speed_scaling_state_broadcaster.cpp.o[0m
+[2.553s] [ 70%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/ur_configuration_controller.cpp.o[0m
+[2.555s] [ 75%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/gpio_controller.cpp.o[0m
+[2.559s] [ 79%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/scaled_joint_trajectory_controller.cpp.o[0m
+[2.571s] In file included from [01m[K/home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/ur_configuration_controller.cpp:42[m[K:
+[2.571s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_box.h:22:97:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_box.hpp' header.[m[K’
+[2.571s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_box.hpp' header."[01;36m[K)[m[K  //NOLINT
+[2.571s]       |                                                                                                 [01;36m[K^[m[K
+[2.571s] In file included from [01m[K/home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/passthrough_trajectory_controller.hpp:46[m[K,
+[2.571s]                  from [01m[K/home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/passthrough_trajectory_controller.cpp:50[m[K:
+[2.571s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+[2.571s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+[2.571s]       |                                                                                                    [01;36m[K^[m[K
+[2.571s] In file included from [01m[K/home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/passthrough_trajectory_controller.hpp:47[m[K,
+[2.571s]                  from [01m[K/home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/passthrough_trajectory_controller.cpp:50[m[K:
+[2.571s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_server_goal_handle.h:22:112:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_server_goal_handle.hpp' header.[m[K’
+[2.571s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_server_goal_handle.hpp' header."[01;36m[K)[m[K  //NOLINT
+[2.572s]       |                                                                                                                [01;36m[K^[m[K
+[2.573s] In file included from [01m[K/home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/force_mode_controller.hpp:40[m[K,
+[2.573s]                  from [01m[K/home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/force_mode_controller.cpp:42[m[K:
+[2.573s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+[2.574s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+[2.574s]       |                                                                                                    [01;36m[K^[m[K
+[2.576s] [01m[K/home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:[m[K In member function ‘[01m[Kbool ur_controllers::GPIOController::setAnalogOutput(ur_msgs::srv::SetAnalogOutput_Request_<std::allocator<void> >::SharedPtr, ur_msgs::srv::SetAnalogOutput_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.577s] [01m[K/home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:410:21:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K-Wtype-limits[m[K]
+[2.577s]   410 |   if ([01;35m[Kreq->data.pin < 0[m[K || req->data.pin > 1) {
+[2.577s]       |       [01;35m[K~~~~~~~~~~~~~~^~~[m[K
+[2.584s] In file included from [01m[K/opt/ros/humble/include/control_toolbox/control_toolbox/pid.hpp:41[m[K,
+[2.584s]                  from [01m[K/opt/ros/humble/include/joint_trajectory_controller/joint_trajectory_controller/joint_trajectory_controller.hpp:27[m[K,
+[2.585s]                  from [01m[K/home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.hpp:43[m[K,
+[2.585s]                  from [01m[K/home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/scaled_joint_trajectory_controller.cpp:41[m[K:
+[2.585s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+[2.585s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+[2.585s]       |                                                                                                    [01;36m[K^[m[K
+[2.585s] In file included from [01m[K/opt/ros/humble/include/joint_trajectory_controller/joint_trajectory_controller/joint_trajectory_controller.hpp:42[m[K,
+[2.585s]                  from [01m[K/home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.hpp:43[m[K,
+[2.585s]                  from [01m[K/home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/scaled_joint_trajectory_controller.cpp:41[m[K:
+[2.586s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_publisher.h:22:103:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header.[m[K’
+[2.586s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header."[01;36m[K)[m[K  //NOLINT
+[2.586s]       |                                                                                                       [01;36m[K^[m[K
+[2.586s] In file included from [01m[K/opt/ros/humble/include/joint_trajectory_controller/joint_trajectory_controller/joint_trajectory_controller.hpp:43[m[K,
+[2.586s]                  from [01m[K/home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.hpp:43[m[K,
+[2.586s]                  from [01m[K/home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/scaled_joint_trajectory_controller.cpp:41[m[K:
+[2.586s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_server_goal_handle.h:22:112:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_server_goal_handle.hpp' header.[m[K’
+[2.586s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_server_goal_handle.hpp' header."[01;36m[K)[m[K  //NOLINT
+[2.586s]       |                                                                                                                [01;36m[K^[m[K
+[2.596s] [ 83%] [32m[1mLinking CXX shared library libur_controllers.so[0m
+[2.967s] [ 83%] Built target ur_controllers
+[2.996s] [ 87%] [32mBuilding CXX object CMakeFiles/test_load_force_mode_controller.dir/test/test_load_force_mode_controller.cpp.o[0m
+[3.001s] [ 91%] [32mBuilding CXX object CMakeFiles/test_load_freedrive_mode_controller.dir/test/test_load_freedrive_mode_controller.cpp.o[0m
+[3.036s] [ 95%] [32m[1mLinking CXX executable test_load_force_mode_controller[0m
+[3.038s] [100%] [32m[1mLinking CXX executable test_load_freedrive_mode_controller[0m
+[3.315s] [100%] Built target test_load_freedrive_mode_controller
+[3.315s] [100%] Built target test_load_force_mode_controller
+[3.331s] Invoked command in '/home/river2000/ur10_ws/build/ur_controllers' returned '0': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/river2000/ur10_ws/install/ur_dashboard_msgs/lib:/home/river2000/ur10_ws/install/ur_robot_driver/lib:/home/river2000/ur10_ws/install/ur_controllers/lib:/usr/local/cuda-11.8/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/river2000/ur10_ws/build/ur_controllers -- -j16 -l16
+[3.332s] Invoking command in '/home/river2000/ur10_ws/build/ur_controllers': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/river2000/ur10_ws/install/ur_dashboard_msgs/lib:/home/river2000/ur10_ws/install/ur_robot_driver/lib:/home/river2000/ur10_ws/install/ur_controllers/lib:/usr/local/cuda-11.8/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/river2000/ur10_ws/build/ur_controllers
+[3.339s] -- Install configuration: "Release"
+[3.340s] -- Execute custom install script
+[3.340s] -- Symlinking: /home/river2000/ur10_ws/install/ur_controllers/include/force_mode_controller_parameters/force_mode_controller_parameters.hpp
+[3.350s] -- Symlinking: /home/river2000/ur10_ws/install/ur_controllers/include/gpio_controller_parameters/gpio_controller_parameters.hpp
+[3.369s] -- Symlinking: /home/river2000/ur10_ws/install/ur_controllers/include/speed_scaling_state_broadcaster_parameters/speed_scaling_state_broadcaster_parameters.hpp
+[3.388s] -- Symlinking: /home/river2000/ur10_ws/install/ur_controllers/include/scaled_joint_trajectory_controller_parameters/scaled_joint_trajectory_controller_parameters.hpp
+[3.397s] -- Symlinking: /home/river2000/ur10_ws/install/ur_controllers/include/freedrive_mode_controller_parameters/freedrive_mode_controller_parameters.hpp
+[3.421s] -- Symlinking: /home/river2000/ur10_ws/install/ur_controllers/include/passthrough_trajectory_controller_parameters/passthrough_trajectory_controller_parameters.hpp
+[3.434s] -- Symlinking: /home/river2000/ur10_ws/install/ur_controllers/include/ur_configuration_controller_parameters/ur_configuration_controller_parameters.hpp
+[3.453s] -- Symlinking: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers//controller_plugins.xml
+[3.462s] -- Symlinking: /home/river2000/ur10_ws/install/ur_controllers/lib/libur_controllers.so
+[3.483s] -- Symlinking: /home/river2000/ur10_ws/install/ur_controllers/include/ur_controllers/force_mode_controller.hpp
+[3.494s] -- Symlinking: /home/river2000/ur10_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp
+[3.504s] -- Symlinking: /home/river2000/ur10_ws/install/ur_controllers/include/ur_controllers/gpio_controller.hpp
+[3.515s] -- Symlinking: /home/river2000/ur10_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller.hpp
+[3.525s] -- Symlinking: /home/river2000/ur10_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.hpp
+[3.537s] -- Symlinking: /home/river2000/ur10_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster.hpp
+[3.547s] -- Symlinking: /home/river2000/ur10_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller.hpp
+[3.568s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[3.568s] -- Symlinking: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/environment/library_path.sh
+[3.580s] -- Symlinking: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/environment/library_path.dsv
+[3.591s] -- Symlinking: /home/river2000/ur10_ws/install/ur_controllers/share/ament_index/resource_index/package_run_dependencies/ur_controllers
+[3.602s] -- Symlinking: /home/river2000/ur10_ws/install/ur_controllers/share/ament_index/resource_index/parent_prefix_path/ur_controllers
+[3.613s] -- Symlinking: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.sh
+[3.623s] -- Symlinking: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.dsv
+[3.635s] -- Symlinking: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/environment/path.sh
+[3.644s] -- Symlinking: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/environment/path.dsv
+[3.655s] -- Symlinking: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/local_setup.bash
+[3.664s] -- Symlinking: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/local_setup.sh
+[3.675s] -- Symlinking: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/local_setup.zsh
+[3.686s] -- Symlinking: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/local_setup.dsv
+[3.697s] -- Symlinking: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/package.dsv
+[3.708s] -- Symlinking: /home/river2000/ur10_ws/install/ur_controllers/share/ament_index/resource_index/packages/ur_controllers
+[3.729s] -- Symlinking: /home/river2000/ur10_ws/install/ur_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ur_controllers
+[3.742s] -- Symlinking: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.763s] -- Symlinking: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.775s] -- Symlinking: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[3.786s] -- Symlinking: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig.cmake
+[3.798s] -- Symlinking: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig-version.cmake
+[3.818s] -- Symlinking: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/package.xml
+[3.841s] Invoked command in '/home/river2000/ur10_ws/build/ur_controllers' returned '0': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/river2000/ur10_ws/install/ur_dashboard_msgs/lib:/home/river2000/ur10_ws/install/ur_robot_driver/lib:/home/river2000/ur10_ws/install/ur_controllers/lib:/usr/local/cuda-11.8/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/river2000/ur10_ws/build/ur_controllers

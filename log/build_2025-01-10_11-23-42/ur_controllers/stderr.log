@@ -1,0 +1,42 @@
+In file included from [01m[K/home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/ur_configuration_controller.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_box.h:22:97:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_box.hpp' header.[m[K’
+   22 |   "This header include is deprecated. Please update your code to use 'realtime_box.hpp' header."[01;36m[K)[m[K  //NOLINT
+      |                                                                                                 [01;36m[K^[m[K
+In file included from [01m[K/home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/passthrough_trajectory_controller.hpp:46[m[K,
+                 from [01m[K/home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/passthrough_trajectory_controller.cpp:50[m[K:
+[01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+   22 |   "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+      |                                                                                                    [01;36m[K^[m[K
+In file included from [01m[K/home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/passthrough_trajectory_controller.hpp:47[m[K,
+                 from [01m[K/home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/passthrough_trajectory_controller.cpp:50[m[K:
+[01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_server_goal_handle.h:22:112:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_server_goal_handle.hpp' header.[m[K’
+   22 |   "This header include is deprecated. Please update your code to use 'realtime_server_goal_handle.hpp' header."[01;36m[K)[m[K  //NOLINT
+      |                                                                                                                [01;36m[K^[m[K
+In file included from [01m[K/home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/force_mode_controller.hpp:40[m[K,
+                 from [01m[K/home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/force_mode_controller.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+   22 |   "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+      |                                                                                                    [01;36m[K^[m[K
+[01m[K/home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:[m[K In member function ‘[01m[Kbool ur_controllers::GPIOController::setAnalogOutput(ur_msgs::srv::SetAnalogOutput_Request_<std::allocator<void> >::SharedPtr, ur_msgs::srv::SetAnalogOutput_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:410:21:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K-Wtype-limits[m[K]
+  410 |   if ([01;35m[Kreq->data.pin < 0[m[K || req->data.pin > 1) {
+      |       [01;35m[K~~~~~~~~~~~~~~^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/control_toolbox/control_toolbox/pid.hpp:41[m[K,
+                 from [01m[K/opt/ros/humble/include/joint_trajectory_controller/joint_trajectory_controller/joint_trajectory_controller.hpp:27[m[K,
+                 from [01m[K/home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.hpp:43[m[K,
+                 from [01m[K/home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/scaled_joint_trajectory_controller.cpp:41[m[K:
+[01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+   22 |   "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+      |                                                                                                    [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/joint_trajectory_controller/joint_trajectory_controller/joint_trajectory_controller.hpp:42[m[K,
+                 from [01m[K/home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.hpp:43[m[K,
+                 from [01m[K/home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/scaled_joint_trajectory_controller.cpp:41[m[K:
+[01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_publisher.h:22:103:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header.[m[K’
+   22 |   "This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header."[01;36m[K)[m[K  //NOLINT
+      |                                                                                                       [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/joint_trajectory_controller/joint_trajectory_controller/joint_trajectory_controller.hpp:43[m[K,
+                 from [01m[K/home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.hpp:43[m[K,
+                 from [01m[K/home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/scaled_joint_trajectory_controller.cpp:41[m[K:
+[01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_server_goal_handle.h:22:112:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_server_goal_handle.hpp' header.[m[K’
+   22 |   "This header include is deprecated. Please update your code to use 'realtime_server_goal_handle.hpp' header."[01;36m[K)[m[K  //NOLINT
+      |                                                                                                                [01;36m[K^[m[K

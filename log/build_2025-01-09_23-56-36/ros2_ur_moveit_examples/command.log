@@ -1,2 +1,0 @@
-Invoking command in '/home/river2000/ur10_ws/build/ros2_ur_moveit_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/river2000/ur10_ws/build/ros2_ur_moveit_examples -- -j16 -l16
-Invoked command in '/home/river2000/ur10_ws/build/ros2_ur_moveit_examples' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/river2000/ur10_ws/build/ros2_ur_moveit_examples -- -j16 -l16

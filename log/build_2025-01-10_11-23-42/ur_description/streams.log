@@ -1,0 +1,200 @@
+[0.018s] Invoking command in '/home/river2000/ur10_ws/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/river2000/ur10_ws/src/Universal_Robots_ROS2_Description -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/river2000/ur10_ws/install/ur_description
+[0.079s] -- The C compiler identification is GNU 12.3.0
+[0.142s] -- The CXX compiler identification is GNU 11.4.0
+[0.154s] -- Detecting C compiler ABI info
+[0.219s] -- Detecting C compiler ABI info - done
+[0.226s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.226s] -- Detecting C compile features
+[0.227s] -- Detecting C compile features - done
+[0.230s] -- Detecting CXX compiler ABI info
+[0.306s] -- Detecting CXX compiler ABI info - done
+[0.313s] -- Check for working CXX compiler: /usr/lib/ccache/g++ - skipped
+[0.313s] -- Detecting CXX compile features
+[0.313s] -- Detecting CXX compile features - done
+[0.316s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.720s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.787s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.835s] -- Found ament_cmake_pytest: 1.3.11 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[1.568s] -- Configuring done
+[1.574s] -- Generating done
+[1.577s] -- Build files have been written to: /home/river2000/ur10_ws/build/ur_description
+[1.586s] Invoked command in '/home/river2000/ur10_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/river2000/ur10_ws/src/Universal_Robots_ROS2_Description -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/river2000/ur10_ws/install/ur_description
+[1.586s] Invoking command in '/home/river2000/ur10_ws/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/river2000/ur10_ws/build/ur_description -- -j16 -l16
+[1.642s] Invoked command in '/home/river2000/ur10_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/river2000/ur10_ws/build/ur_description -- -j16 -l16
+[1.653s] Invoking command in '/home/river2000/ur10_ws/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/river2000/ur10_ws/build/ur_description
+[1.663s] -- Install configuration: "Release"
+[1.663s] -- Execute custom install script
+[1.664s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/config/initial_positions.yaml
+[1.674s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/config/ur10/default_kinematics.yaml
+[1.684s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/config/ur10/joint_limits.yaml
+[1.694s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/config/ur10/physical_parameters.yaml
+[1.704s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/config/ur10/ur_controlllers.yaml
+[1.714s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/config/ur10/visual_parameters.yaml
+[1.724s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/config/ur10e/default_kinematics.yaml
+[1.735s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/config/ur10e/joint_limits.yaml
+[1.745s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/config/ur10e/physical_parameters.yaml
+[1.755s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/config/ur10e/visual_parameters.yaml
+[1.765s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/config/ur16e/default_kinematics.yaml
+[1.783s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/config/ur16e/joint_limits.yaml
+[1.793s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/config/ur16e/physical_parameters.yaml
+[1.802s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/config/ur16e/visual_parameters.yaml
+[1.814s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/config/ur20/default_kinematics.yaml
+[1.824s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/config/ur20/joint_limits.yaml
+[1.834s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/config/ur20/physical_parameters.yaml
+[1.854s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/config/ur20/visual_parameters.yaml
+[1.863s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/config/ur3/default_kinematics.yaml
+[1.873s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/config/ur3/joint_limits.yaml
+[1.882s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/config/ur3/physical_parameters.yaml
+[1.892s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/config/ur3/visual_parameters.yaml
+[1.902s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/config/ur30/default_kinematics.yaml
+[1.911s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/config/ur30/joint_limits.yaml
+[1.921s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/config/ur30/physical_parameters.yaml
+[1.931s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/config/ur30/visual_parameters.yaml
+[1.948s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/config/ur3e/default_kinematics.yaml
+[1.958s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/config/ur3e/joint_limits.yaml
+[1.967s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/config/ur3e/physical_parameters.yaml
+[1.977s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/config/ur3e/visual_parameters.yaml
+[1.987s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/config/ur5/default_kinematics.yaml
+[1.996s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/config/ur5/joint_limits.yaml
+[2.011s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/config/ur5/physical_parameters.yaml
+[2.027s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/config/ur5/visual_parameters.yaml
+[2.037s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/config/ur5e/default_kinematics.yaml
+[2.047s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/config/ur5e/joint_limits.yaml
+[2.063s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/config/ur5e/physical_parameters.yaml
+[2.073s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/config/ur5e/visual_parameters.yaml
+[2.083s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/launch/ur_control.launch.py
+[2.093s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/launch/view_ur.launch.py
+[2.112s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur10/collision/base.stl
+[2.122s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur10/collision/forearm.stl
+[2.132s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur10/collision/shoulder.stl
+[2.149s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur10/collision/upperarm.stl
+[2.159s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur10/collision/wrist1.stl
+[2.175s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur10/collision/wrist2.stl
+[2.185s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur10/collision/wrist3.stl
+[2.194s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur10/visual/base.dae
+[2.204s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur10/visual/forearm.dae
+[2.221s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur10/visual/shoulder.dae
+[2.238s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur10/visual/upperarm.dae
+[2.248s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur10/visual/wrist1.dae
+[2.258s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur10/visual/wrist2.dae
+[2.271s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur10/visual/wrist3.dae
+[2.282s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/base.stl
+[2.300s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/forearm.stl
+[2.310s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/shoulder.stl
+[2.319s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/upperarm.stl
+[2.335s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist1.stl
+[2.345s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist2.stl
+[2.356s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist3.stl
+[2.366s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/base.dae
+[2.377s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/forearm.dae
+[2.387s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/shoulder.dae
+[2.397s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/upperarm.dae
+[2.407s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist1.dae
+[2.418s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist2.dae
+[2.430s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist3.dae
+[2.442s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur16e/collision/forearm.stl
+[2.453s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur16e/collision/upperarm.stl
+[2.466s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur16e/visual/forearm.dae
+[2.476s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur16e/visual/upperarm.dae
+[2.486s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur20/LICENSE.txt
+[2.497s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur20/collision/base.stl
+[2.508s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur20/collision/forearm.stl
+[2.519s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur20/collision/shoulder.stl
+[2.531s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur20/collision/upperarm.stl
+[2.541s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur20/collision/wrist1.stl
+[2.551s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur20/collision/wrist2.stl
+[2.560s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur20/collision/wrist3.stl
+[2.570s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur20/visual/UR20_DIFF_8bit_2K.png
+[2.580s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur20/visual/base.dae
+[2.591s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur20/visual/forearm.dae
+[2.602s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur20/visual/shoulder.dae
+[2.612s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur20/visual/upperarm.dae
+[2.622s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur20/visual/wrist1.dae
+[2.633s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur20/visual/wrist2.dae
+[2.643s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur20/visual/wrist3.dae
+[2.654s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur3/collision/base.stl
+[2.665s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur3/collision/forearm.stl
+[2.675s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur3/collision/shoulder.stl
+[2.685s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur3/collision/upperarm.stl
+[2.695s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur3/collision/wrist1.stl
+[2.705s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur3/collision/wrist2.stl
+[2.715s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur3/collision/wrist3.stl
+[2.726s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur3/visual/base.dae
+[2.737s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur3/visual/forearm.dae
+[2.747s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur3/visual/shoulder.dae
+[2.757s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur3/visual/upperarm.dae
+[2.768s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur3/visual/wrist1.dae
+[2.777s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur3/visual/wrist2.dae
+[2.787s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur3/visual/wrist3.dae
+[2.797s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur30/LICENSE.txt
+[2.807s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur30/collision/forearm.stl
+[2.817s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur30/collision/upperarm.stl
+[2.827s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur30/visual/UR30_DIFF_8bit_2K.png
+[2.837s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur30/visual/forearm.dae
+[2.848s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur30/visual/upperarm.dae
+[2.858s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/base.stl
+[2.870s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/forearm.stl
+[2.879s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/shoulder.stl
+[2.889s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/upperarm.stl
+[2.899s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist1.stl
+[2.909s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist2.stl
+[2.919s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist3.stl
+[2.929s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/base.dae
+[2.939s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/forearm.dae
+[2.948s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/shoulder.dae
+[2.958s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/upperarm.dae
+[2.977s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist1.dae
+[2.986s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist2.dae
+[2.996s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist3.dae
+[3.006s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur5/collision/base.stl
+[3.017s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur5/collision/forearm.stl
+[3.027s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur5/collision/shoulder.stl
+[3.046s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur5/collision/upperarm.stl
+[3.063s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur5/collision/wrist1.stl
+[3.081s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur5/collision/wrist2.stl
+[3.096s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur5/collision/wrist3.stl
+[3.106s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur5/visual/base.dae
+[3.117s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur5/visual/forearm.dae
+[3.127s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur5/visual/shoulder.dae
+[3.137s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur5/visual/upperarm.dae
+[3.147s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur5/visual/wrist1.dae
+[3.157s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur5/visual/wrist2.dae
+[3.167s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur5/visual/wrist3.dae
+[3.177s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/base.stl
+[3.187s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/forearm.stl
+[3.196s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/shoulder.stl
+[3.207s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/upperarm.stl
+[3.217s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist1.stl
+[3.227s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist2.stl
+[3.237s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist3.stl
+[3.247s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/base.dae
+[3.264s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/forearm.dae
+[3.274s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/shoulder.dae
+[3.284s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/upperarm.dae
+[3.294s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist1.dae
+[3.304s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist2.dae
+[3.315s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist3.dae
+[3.325s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/rviz/view_robot.rviz
+[3.336s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/urdf/inc/ur_common.xacro
+[3.346s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/urdf/inc/ur_transmissions.xacro
+[3.356s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/urdf/ur.ros2_control.xacro
+[3.366s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/urdf/ur.urdf.xacro
+[3.376s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/urdf/ur_macro.xacro
+[3.387s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/test/test_ur_urdf_xacro.py
+[3.396s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/test/test_view_ur_launch.py
+[3.406s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ament_index/resource_index/package_run_dependencies/ur_description
+[3.417s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ament_index/resource_index/parent_prefix_path/ur_description
+[3.427s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/environment/ament_prefix_path.sh
+[3.438s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/environment/ament_prefix_path.dsv
+[3.456s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/environment/path.sh
+[3.474s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/environment/path.dsv
+[3.485s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/local_setup.bash
+[3.495s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/local_setup.sh
+[3.506s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/local_setup.zsh
+[3.516s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/local_setup.dsv
+[3.526s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/package.dsv
+[3.536s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ament_index/resource_index/packages/ur_description
+[3.546s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/cmake/ur_descriptionConfig.cmake
+[3.557s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/cmake/ur_descriptionConfig-version.cmake
+[3.567s] -- Symlinking: /home/river2000/ur10_ws/install/ur_description/share/ur_description/package.xml
+[3.588s] Invoked command in '/home/river2000/ur10_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/river2000/ur10_ws/build/ur_description

@@ -1,8 +1,4 @@
-/home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ros2_ur_moveit_examples/launch/check_collisions.launch.py
 /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ros2_ur_moveit_examples/launch/hello_moveit.launch.py
-/home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ros2_ur_moveit_examples/launch/kinematics.launch.py
-/home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ros2_ur_moveit_examples/launch/planning_scene.launch.py
-/home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ros2_ur_moveit_examples/launch/planning_scene_service.launch.py
 /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/lib/ros2_ur_moveit_examples/hello_moveit
 /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ament_index/resource_index/package_run_dependencies/ros2_ur_moveit_examples
 /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ament_index/resource_index/parent_prefix_path/ros2_ur_moveit_examples
