@@ -1,0 +1,10 @@
+/home/river2000/ur10_ws/build/ur_pick_and_place_moveit/CMakeFiles/uninstall.dir
+/home/river2000/ur10_ws/build/ur_pick_and_place_moveit/CMakeFiles/ur_pick_and_place_moveit_uninstall.dir
+/home/river2000/ur10_ws/build/ur_pick_and_place_moveit/CMakeFiles/ur_pick_and_place_moveit.dir
+/home/river2000/ur10_ws/build/ur_pick_and_place_moveit/CMakeFiles/test.dir
+/home/river2000/ur10_ws/build/ur_pick_and_place_moveit/CMakeFiles/edit_cache.dir
+/home/river2000/ur10_ws/build/ur_pick_and_place_moveit/CMakeFiles/rebuild_cache.dir
+/home/river2000/ur10_ws/build/ur_pick_and_place_moveit/CMakeFiles/list_install_components.dir
+/home/river2000/ur10_ws/build/ur_pick_and_place_moveit/CMakeFiles/install.dir
+/home/river2000/ur10_ws/build/ur_pick_and_place_moveit/CMakeFiles/install/local.dir
+/home/river2000/ur10_ws/build/ur_pick_and_place_moveit/CMakeFiles/install/strip.dir

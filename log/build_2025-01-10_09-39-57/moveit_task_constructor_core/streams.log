@@ -1,0 +1,357 @@
+[0.025s] Invoking command in '/home/river2000/ur10_ws/build/moveit_task_constructor_core': AMENT_PREFIX_PATH=/home/river2000/ur10_ws/install/rviz_marker_tools:/home/river2000/ur10_ws/install/moveit_task_constructor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/rviz_marker_tools:/home/river2000/ur10_ws/install/moveit_task_constructor_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/river2000/ur10_ws/install/rviz_marker_tools/lib:/home/river2000/ur10_ws/install/moveit_task_constructor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/river2000/ur10_ws/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/river2000/ur10_ws/src/moveit_task_constructor/core -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/river2000/ur10_ws/install/moveit_task_constructor_core
+[0.117s] -- The C compiler identification is GNU 12.3.0
+[0.184s] -- The CXX compiler identification is GNU 11.4.0
+[0.195s] -- Detecting C compiler ABI info
+[0.279s] -- Detecting C compiler ABI info - done
+[0.297s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.298s] -- Detecting C compile features
+[0.299s] -- Detecting C compile features - done
+[0.306s] -- Detecting CXX compiler ABI info
+[0.413s] -- Detecting CXX compiler ABI info - done
+[0.420s] -- Check for working CXX compiler: /usr/lib/ccache/g++ - skipped
+[0.421s] -- Detecting CXX compile features
+[0.421s] -- Detecting CXX compile features - done
+[0.425s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.873s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.026s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[1.034s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.082s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.089s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.099s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.113s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.131s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.169s] -- Found moveit_common: 2.5.6 (/opt/ros/humble/share/moveit_common/cmake)
+[1.261s] -- Found moveit_core: 2.5.6 (/opt/ros/humble/share/moveit_core/cmake)
+[1.706s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.804s] -- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.854s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.858s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.000s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.034s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.090s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.103s] -- Found Threads: TRUE  
+[2.148s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.152s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.177s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.373s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.449s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.701s] -- Found moveit_ros_planning: 2.5.6 (/opt/ros/humble/share/moveit_ros_planning/cmake)
+[2.706s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[2.731s] -- Found moveit_ros_planning_interface: 2.5.6 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[2.735s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[2.750s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[2.773s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[2.798s] -- Found moveit_task_constructor_msgs: 0.1.3 (/home/river2000/ur10_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake)
+[2.824s] -- Found py_binding_tools: 2.0.1 (/opt/ros/humble/share/py_binding_tools/cmake)
+[2.827s] -- Found rviz_marker_tools: 0.1.3 (/home/river2000/ur10_ws/install/rviz_marker_tools/share/rviz_marker_tools/cmake)
+[3.473s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter Development Development.Module Development.Embed 
+[3.473s] [0mMissing content of submodule pybind11: Use 'git clone --recurse-submodule' in future.
+[3.473s] Checking out content automatically[0m
+[3.528s] Submodule 'core/python/pybind11' (https://github.com/pybind/pybind11) registered for path 'pybind11'
+[3.529s] Submodule 'core/src/scope_guard' (https://github.com/ricab/scope_guard) registered for path '../src/scope_guard'
+[3.577s] Cloning into '/home/river2000/ur10_ws/src/moveit_task_constructor/core/python/pybind11'...
+[7.127s] Cloning into '/home/river2000/ur10_ws/src/moveit_task_constructor/core/src/scope_guard'...
+[14.660s] From https://github.com/pybind/pybind11
+[14.660s]  * branch              f4bc71f981d4eb2dd780215fd3c5a7420f1f03aa -> FETCH_HEAD
+[14.732s] Submodule path 'pybind11': checked out 'f4bc71f981d4eb2dd780215fd3c5a7420f1f03aa'
+[14.765s] Submodule path '../src/scope_guard': checked out '71a04528184db1749dd08ebbbf4daf3b5dca21fd'
+[14.776s] -- pybind11 v2.13.0 dev1
+[14.829s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[14.881s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[14.886s] -- Performing Test HAS_FLTO
+[15.208s] -- Performing Test HAS_FLTO - Success
+[15.229s] -- Found ament_cmake_pytest: 1.3.11 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[15.239s] -- Found launch_testing_ament_cmake: 1.0.7 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[15.248s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[15.418s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[15.418s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[15.418s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[15.418s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[15.479s] -- Found PythonExtra: .so  
+[16.009s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[16.018s] -- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[16.020s] -- Found launch_testing_ament_cmake: 1.0.7 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[16.020s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[16.073s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[16.073s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[16.073s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[16.087s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[16.105s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[16.143s] -- Configuring done
+[16.684s] -- Generating done
+[16.827s] -- Build files have been written to: /home/river2000/ur10_ws/build/moveit_task_constructor_core
+[16.868s] Invoked command in '/home/river2000/ur10_ws/build/moveit_task_constructor_core' returned '0': AMENT_PREFIX_PATH=/home/river2000/ur10_ws/install/rviz_marker_tools:/home/river2000/ur10_ws/install/moveit_task_constructor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/rviz_marker_tools:/home/river2000/ur10_ws/install/moveit_task_constructor_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/river2000/ur10_ws/install/rviz_marker_tools/lib:/home/river2000/ur10_ws/install/moveit_task_constructor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/river2000/ur10_ws/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/river2000/ur10_ws/src/moveit_task_constructor/core -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/river2000/ur10_ws/install/moveit_task_constructor_core
+[16.871s] Invoking command in '/home/river2000/ur10_ws/build/moveit_task_constructor_core': AMENT_PREFIX_PATH=/home/river2000/ur10_ws/install/rviz_marker_tools:/home/river2000/ur10_ws/install/moveit_task_constructor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/rviz_marker_tools:/home/river2000/ur10_ws/install/moveit_task_constructor_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/river2000/ur10_ws/install/rviz_marker_tools/lib:/home/river2000/ur10_ws/install/moveit_task_constructor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/river2000/ur10_ws/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/river2000/ur10_ws/build/moveit_task_constructor_core -- -j16 -l16
+[16.987s] [  2%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[16.987s] [  2%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[16.992s] [  3%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[16.992s] [  4%] [32mBuilding CXX object src/CMakeFiles/moveit_task_constructor_core.dir/cost_terms.cpp.o[0m
+[16.992s] [  5%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[16.992s] [  7%] [32mBuilding CXX object src/CMakeFiles/moveit_task_constructor_core.dir/container.cpp.o[0m
+[16.994s] [  9%] [32mBuilding CXX object src/CMakeFiles/moveit_task_constructor_core.dir/storage.cpp.o[0m
+[16.994s] [  9%] [32mBuilding CXX object src/CMakeFiles/moveit_task_constructor_core.dir/stage.cpp.o[0m
+[16.994s] [ 12%] [32mBuilding CXX object src/CMakeFiles/moveit_task_constructor_core.dir/merge.cpp.o[0m
+[16.994s] [ 12%] [32mBuilding CXX object src/CMakeFiles/moveit_task_constructor_core.dir/task.cpp.o[0m
+[16.994s] [ 14%] [32mBuilding CXX object src/CMakeFiles/moveit_task_constructor_core.dir/introspection.cpp.o[0m
+[16.995s] [ 14%] [32mBuilding CXX object src/CMakeFiles/moveit_task_constructor_core.dir/properties.cpp.o[0m
+[16.996s] [ 15%] [32mBuilding CXX object src/CMakeFiles/moveit_task_constructor_core.dir/utils.cpp.o[0m
+[16.998s] [ 16%] [32mBuilding CXX object src/CMakeFiles/moveit_task_constructor_core.dir/marker_tools.cpp.o[0m
+[17.003s] [ 17%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[17.026s] [ 17%] Built target ament_cmake_python_copy_moveit
+[17.714s] running egg_info
+[17.716s] creating moveit.egg-info
+[17.784s] writing moveit.egg-info/PKG-INFO
+[17.786s] writing dependency_links to moveit.egg-info/dependency_links.txt
+[17.788s] writing top-level names to moveit.egg-info/top_level.txt
+[17.788s] writing manifest file 'moveit.egg-info/SOURCES.txt'
+[18.061s] reading manifest file 'moveit.egg-info/SOURCES.txt'
+[18.061s] writing manifest file 'moveit.egg-info/SOURCES.txt'
+[18.193s] [ 17%] Built target ament_cmake_python_build_moveit_egg
+[18.241s] [ 18%] [32mBuilding CXX object src/CMakeFiles/moveit_task_constructor_core.dir/solvers/planner_interface.cpp.o[0m
+[20.193s] [ 20%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[20.305s] [ 20%] Built target gtest_main
+[20.357s] [ 21%] [32mBuilding CXX object src/CMakeFiles/moveit_task_constructor_core.dir/solvers/cartesian_path.cpp.o[0m
+[21.495s] [ 22%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[21.630s] [ 22%] Built target gmock_main
+[21.655s] [ 23%] [32mBuilding CXX object src/CMakeFiles/moveit_task_constructor_core.dir/solvers/joint_interpolation.cpp.o[0m
+[25.840s] [ 24%] [32mBuilding CXX object src/CMakeFiles/moveit_task_constructor_core.dir/solvers/pipeline_planner.cpp.o[0m
+[26.482s] [ 25%] [32mBuilding CXX object src/CMakeFiles/moveit_task_constructor_core.dir/solvers/multi_planner.cpp.o[0m
+[39.896s] [ 27%] [32m[1mLinking CXX static library libgmock.a[0m
+[40.142s] [ 27%] Built target gmock
+[40.378s] [ 28%] [32m[1mLinking CXX static library libgtest.a[0m
+[40.555s] [ 28%] Built target gtest
+[59.170s] [ 29%] [32m[1mLinking CXX shared library libmoveit_task_constructor_core.so[0m
+[59.662s] [ 29%] Built target moveit_task_constructor_core
+[59.694s] [ 30%] [32mBuilding CXX object test/CMakeFiles/gtest_utils.dir/models.cpp.o[0m
+[59.698s] [ 31%] [32mBuilding CXX object test/CMakeFiles/gtest_utils.dir/stage_mockups.cpp.o[0m
+[59.705s] [ 32%] [32mBuilding CXX object test/CMakeFiles/gtest_utils.dir/gtest_value_printers.cpp.o[0m
+[59.712s] [ 34%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/fix_collision_objects.cpp.o[0m
+[59.712s] [ 35%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/fixed_state.cpp.o[0m
+[59.713s] [ 38%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/modify_planning_scene.cpp.o[0m
+[59.713s] [ 38%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/current_state.cpp.o[0m
+[59.713s] [ 38%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/fixed_cartesian_poses.cpp.o[0m
+[59.713s] [ 42%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/generate_place_pose.cpp.o[0m
+[59.714s] [ 42%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/compute_ik.cpp.o[0m
+[59.715s] [ 43%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/generate_random_pose.cpp.o[0m
+[59.715s] [ 42%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/generate_grasp_pose.cpp.o[0m
+[59.715s] [ 44%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/generate_pose.cpp.o[0m
+[59.715s] [ 47%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/passthrough.cpp.o[0m
+[59.716s] [ 47%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/predicate_filter.cpp.o[0m
+[59.719s] [ 48%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/connect.cpp.o[0m
+[66.171s] [ 49%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/move_to.cpp.o[0m
+[73.244s] [ 50%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/move_relative.cpp.o[0m
+[77.001s] [ 51%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/simple_grasp.cpp.o[0m
+[82.886s] [ 52%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/pick.cpp.o[0m
+[88.832s] [ 54%] [32m[1mLinking CXX shared library libgtest_utils.so[0m
+[89.422s] [ 54%] Built target gtest_utils
+[105.599s] [ 55%] [32m[1mLinking CXX shared library libmoveit_task_constructor_core_stages.so[0m
+[105.899s] [ 55%] Built target moveit_task_constructor_core_stages
+[105.956s] [ 57%] [32mBuilding CXX object test/CMakeFiles/moveit_task_constructor_core-test-properties.dir/test_properties.cpp.o[0m
+[105.956s] [ 57%] [32mBuilding CXX object python/bindings/CMakeFiles/pymoveit_mtc.dir/src/properties.cpp.o[0m
+[105.956s] [ 60%] [32mBuilding CXX object test/CMakeFiles/moveit_task_constructor_core-test-serial.dir/test_serial.cpp.o[0m
+[105.957s] [ 60%] [32mBuilding CXX object test/CMakeFiles/moveit_task_constructor_core-test-mockups.dir/test_mockups.cpp.o[0m
+[105.957s] [ 61%] [32mBuilding CXX object test/CMakeFiles/moveit_task_constructor_core-test-stage.dir/test_stage.cpp.o[0m
+[105.957s] [ 62%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stage_plugins.dir/plugins.cpp.o[0m
+[105.957s] [ 63%] [32mBuilding CXX object test/CMakeFiles/moveit_task_constructor_core-test-pruning.dir/test_pruning.cpp.o[0m
+[105.957s] [ 64%] [32mBuilding CXX object test/CMakeFiles/moveit_task_constructor_core-test-container.dir/test_container.cpp.o[0m
+[105.958s] [ 65%] [32mBuilding CXX object test/CMakeFiles/moveit_task_constructor_core-test-fallback.dir/test_fallback.cpp.o[0m
+[105.958s] [ 67%] [32mBuilding CXX object test/CMakeFiles/moveit_task_constructor_core-test-cost-terms.dir/test_cost_terms.cpp.o[0m
+[105.959s] [ 68%] [32mBuilding CXX object test/CMakeFiles/moveit_task_constructor_core-test-cost-queue.dir/test_cost_queue.cpp.o[0m
+[105.963s] [ 69%] [32mBuilding CXX object test/CMakeFiles/moveit_task_constructor_core-test-move-to.dir/test_move_to.cpp.o[0m
+[105.966s] [ 71%] [32mBuilding CXX object test/CMakeFiles/pick_pr2.dir/pick_pr2.cpp.o[0m
+[105.967s] [ 71%] [32mBuilding CXX object test/CMakeFiles/moveit_task_constructor_core-test-move-relative.dir/test_move_relative.cpp.o[0m
+[105.967s] [ 72%] [32mBuilding CXX object test/CMakeFiles/moveit_task_constructor_core-test-interface-state.dir/test_interface_state.cpp.o[0m
+[105.969s] [ 74%] [32mBuilding CXX object test/CMakeFiles/pick_ur5.dir/pick_ur5.cpp.o[0m
+[113.676s] [ 75%] [32m[1mLinking CXX shared library libmoveit_task_constructor_core_stage_plugins.so[0m
+[114.292s] [ 75%] Built target moveit_task_constructor_core_stage_plugins
+[114.324s] [ 76%] [32mBuilding CXX object python/bindings/CMakeFiles/pymoveit_mtc.dir/src/solvers.cpp.o[0m
+[115.149s] [ 77%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-properties[0m
+[116.360s] [ 77%] Built target moveit_task_constructor_core-test-properties
+[116.468s] [ 78%] [32mBuilding CXX object test/CMakeFiles/pick_pa10.dir/pick_pa10.cpp.o[0m
+[121.465s] [ 80%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-cost-queue[0m
+[122.634s] [ 80%] Built target moveit_task_constructor_core-test-cost-queue
+[122.663s] [ 81%] [32mBuilding CXX object python/bindings/CMakeFiles/pymoveit_mtc.dir/src/core.cpp.o[0m
+[125.429s] [ 82%] [32mBuilding CXX object python/bindings/CMakeFiles/pymoveit_mtc.dir/src/stages.cpp.o[0m
+[135.183s] [ 83%] [32m[1mLinking CXX executable pick_ur5[0m
+[135.941s] [ 84%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-interface-state[0m
+[137.001s] [ 84%] Built target pick_ur5
+[137.032s] [ 85%] [32mBuilding CXX object python/bindings/CMakeFiles/pymoveit_mtc.dir/src/module.cpp.o[0m
+[137.445s] [ 87%] [32m[1mLinking CXX executable pick_pr2[0m
+[137.543s] [ 88%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-stage[0m
+[137.623s] [ 88%] Built target moveit_task_constructor_core-test-interface-state
+[138.693s] [ 89%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-move-relative[0m
+[138.857s] [ 89%] Built target pick_pr2
+[139.037s] [ 89%] Built target moveit_task_constructor_core-test-stage
+[139.121s] [ 90%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-serial[0m
+[139.529s] [ 91%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-pruning[0m
+[139.581s] [ 91%] Built target moveit_task_constructor_core-test-move-relative
+[140.282s] [ 91%] Built target moveit_task_constructor_core-test-serial
+[140.323s] [ 91%] Built target moveit_task_constructor_core-test-pruning
+[141.792s] [ 92%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-move-to[0m
+[142.424s] [ 94%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-cost-terms[0m
+[142.598s] [ 94%] Built target moveit_task_constructor_core-test-move-to
+[143.178s] [ 95%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-fallback[0m
+[143.205s] [ 95%] Built target moveit_task_constructor_core-test-cost-terms
+[143.408s] [ 96%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-mockups[0m
+[143.735s] [ 97%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-container[0m
+[143.811s] [ 97%] Built target moveit_task_constructor_core-test-fallback
+[143.993s] [ 97%] Built target moveit_task_constructor_core-test-mockups
+[144.304s] [ 97%] Built target moveit_task_constructor_core-test-container
+[145.541s] [ 98%] [32m[1mLinking CXX executable pick_pa10[0m
+[145.967s] [ 98%] Built target pick_pa10
+[154.114s] [100%] [32m[1mLinking CXX shared module pymoveit_mtc.cpython-310-x86_64-linux-gnu.so[0m
+[155.995s] lto-wrapper: warning: using serial compilation of 12 LTRANS jobs
+[165.857s] [100%] Built target pymoveit_mtc
+[165.888s] Invoked command in '/home/river2000/ur10_ws/build/moveit_task_constructor_core' returned '0': AMENT_PREFIX_PATH=/home/river2000/ur10_ws/install/rviz_marker_tools:/home/river2000/ur10_ws/install/moveit_task_constructor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/rviz_marker_tools:/home/river2000/ur10_ws/install/moveit_task_constructor_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/river2000/ur10_ws/install/rviz_marker_tools/lib:/home/river2000/ur10_ws/install/moveit_task_constructor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/river2000/ur10_ws/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/river2000/ur10_ws/build/moveit_task_constructor_core -- -j16 -l16
+[165.891s] Invoking command in '/home/river2000/ur10_ws/build/moveit_task_constructor_core': AMENT_PREFIX_PATH=/home/river2000/ur10_ws/install/rviz_marker_tools:/home/river2000/ur10_ws/install/moveit_task_constructor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/rviz_marker_tools:/home/river2000/ur10_ws/install/moveit_task_constructor_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/river2000/ur10_ws/install/rviz_marker_tools/lib:/home/river2000/ur10_ws/install/moveit_task_constructor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/river2000/ur10_ws/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/river2000/ur10_ws/build/moveit_task_constructor_core
+[165.911s] -- Install configuration: "Release"
+[165.912s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/environment/pythonpath.sh
+[165.912s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/environment/pythonpath.dsv
+[165.912s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages/moveit-0.1.3-py3.10.egg-info
+[165.913s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages/moveit-0.1.3-py3.10.egg-info/PKG-INFO
+[165.913s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages/moveit-0.1.3-py3.10.egg-info/dependency_links.txt
+[165.913s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages/moveit-0.1.3-py3.10.egg-info/top_level.txt
+[165.913s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages/moveit-0.1.3-py3.10.egg-info/SOURCES.txt
+[165.914s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages/moveit
+[165.914s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages/moveit/__init__.py
+[165.914s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages/moveit/task_constructor
+[165.914s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages/moveit/task_constructor/stages.py
+[165.914s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages/moveit/task_constructor/__init__.py
+[165.914s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages/moveit/task_constructor/core.py
+[165.968s] Listing '/home/river2000/ur10_ws/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages/moveit'...
+[165.968s] Compiling '/home/river2000/ur10_ws/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages/moveit/__init__.py'...
+[165.968s] Listing '/home/river2000/ur10_ws/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages/moveit/task_constructor'...
+[165.968s] Compiling '/home/river2000/ur10_ws/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages/moveit/task_constructor/__init__.py'...
+[165.968s] Compiling '/home/river2000/ur10_ws/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages/moveit/task_constructor/core.py'...
+[165.968s] Compiling '/home/river2000/ur10_ws/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages/moveit/task_constructor/stages.py'...
+[165.972s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include
+[165.972s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit
+[165.972s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor
+[165.973s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers
+[165.973s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/cartesian_path.h
+[165.973s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/planner_interface.h
+[165.973s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/joint_interpolation.h
+[165.973s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/pipeline_planner.h
+[165.974s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/multi_planner.h
+[165.974s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages
+[165.974s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_pose.h
+[165.974s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/pick.h
+[165.974s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/current_state.h
+[165.974s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/noop.h
+[165.975s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_grasp_pose.h
+[165.975s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fix_collision_objects.h
+[165.975s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/simple_grasp.h
+[165.975s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_place_pose.h
+[165.975s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_cartesian_poses.h
+[165.975s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/connect.h
+[165.975s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_to.h
+[165.975s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_state.h
+[165.976s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/compute_ik.h
+[165.976s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/predicate_filter.h
+[165.976s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_relative.h
+[165.976s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/passthrough.h
+[165.976s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h
+[165.976s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_random_pose.h
+[165.976s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/storage.h
+[165.977s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers.h
+[165.977s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/cost_queue.h
+[165.977s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/moveit_compat.h
+[165.977s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages.h
+[165.977s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/trajectory_execution_info.h
+[165.977s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/merge.h
+[165.977s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/properties.h
+[165.978s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/cost_terms.h
+[165.978s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/introspection.h
+[165.978s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stage.h
+[165.978s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/container.h
+[165.978s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/type_traits.h
+[165.978s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/task.h
+[165.978s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/utils.h
+[165.978s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/marker_tools.h
+[165.979s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python
+[165.979s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/task_constructor
+[165.979s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/task_constructor/properties.h
+[165.979s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/motion_planning_stages_plugin_description.xml
+[165.979s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/environment/library_path.sh
+[165.979s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/environment/library_path.dsv
+[165.979s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/share/ament_index/resource_index/package_run_dependencies/moveit_task_constructor_core
+[165.980s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/share/ament_index/resource_index/parent_prefix_path/moveit_task_constructor_core
+[165.980s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/environment/ament_prefix_path.sh
+[165.980s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/environment/ament_prefix_path.dsv
+[165.980s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/environment/path.sh
+[165.981s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/environment/path.dsv
+[165.981s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/local_setup.bash
+[165.981s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/local_setup.sh
+[165.981s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/local_setup.zsh
+[165.982s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/local_setup.dsv
+[165.982s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/package.dsv
+[165.982s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/share/ament_index/resource_index/packages/moveit_task_constructor_core
+[165.982s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/share/ament_index/resource_index/moveit_task_constructor_core__pluginlib__plugin/moveit_task_constructor_core
+[165.982s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/moveit_task_constructor_coreTargetsExport.cmake
+[165.983s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/moveit_task_constructor_coreTargetsExport-release.cmake
+[165.983s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/ament_cmake_export_targets-extras.cmake
+[165.983s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[165.983s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/moveit_task_constructor_coreConfig.cmake
+[165.984s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/moveit_task_constructor_coreConfig-version.cmake
+[165.984s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/package.xml
+[165.984s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/lib/libmoveit_task_constructor_core.so
+[165.989s] -- Set runtime path of "/home/river2000/ur10_ws/install/moveit_task_constructor_core/lib/libmoveit_task_constructor_core.so" to ""
+[165.989s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/lib/libmoveit_task_constructor_core_stages.so
+[165.991s] -- Set runtime path of "/home/river2000/ur10_ws/install/moveit_task_constructor_core/lib/libmoveit_task_constructor_core_stages.so" to ""
+[165.992s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/lib/libmoveit_task_constructor_core_stage_plugins.so
+[165.992s] -- Set runtime path of "/home/river2000/ur10_ws/install/moveit_task_constructor_core/lib/libmoveit_task_constructor_core_stage_plugins.so" to ""
+[165.992s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11
+[165.992s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/type_caster_pyobject_ptr.h
+[165.993s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/typing.h
+[165.993s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/smart_holder.h
+[165.993s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/eigen.h
+[165.993s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/stl
+[165.993s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/stl/filesystem.h
+[165.994s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/stl_bind.h
+[165.994s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/gil.h
+[165.994s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/eval.h
+[165.994s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/complex.h
+[165.995s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/numpy.h
+[165.995s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/functional.h
+[165.995s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/embed.h
+[165.996s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/pybind11.h
+[165.996s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/options.h
+[165.996s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/detail
+[165.996s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/detail/init.h
+[165.996s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/detail/descr.h
+[165.996s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/detail/smart_holder_sfinae_hooks_only.h
+[165.997s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/detail/dynamic_raw_ptr_cast_if_possible.h
+[165.997s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/detail/smart_holder_type_casters.h
+[165.997s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/detail/smart_holder_poc.h
+[165.997s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/detail/typeid.h
+[165.997s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/detail/class.h
+[165.997s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/detail/type_caster_odr_guard.h
+[165.997s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/detail/internals.h
+[165.998s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/detail/common.h
+[165.998s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/detail/type_caster_base.h
+[165.998s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/iostream.h
+[165.998s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/common.h
+[165.998s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/buffer_info.h
+[165.998s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/operators.h
+[165.998s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/chrono.h
+[165.999s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/attr.h
+[165.999s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/gil_safe_call_once.h
+[165.999s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/eigen
+[165.999s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/eigen/common.h
+[165.999s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/eigen/matrix.h
+[166.000s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/eigen/tensor.h
+[166.000s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/pytypes.h
+[166.000s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/stl.h
+[166.001s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/cast.h
+[166.001s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/trampoline_self_life_support.h
+[166.001s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/pybind11Config.cmake
+[166.002s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/pybind11ConfigVersion.cmake
+[166.002s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/FindPythonLibsNew.cmake
+[166.003s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/pybind11Common.cmake
+[166.003s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/pybind11Tools.cmake
+[166.003s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/pybind11NewTools.cmake
+[166.004s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/pybind11Targets.cmake
+[166.004s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/share/pkgconfig/pybind11.pc
+[166.005s] -- Installing: /home/river2000/ur10_ws/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages/pymoveit_mtc.cpython-310-x86_64-linux-gnu.so
+[166.006s] -- Set runtime path of "/home/river2000/ur10_ws/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages/pymoveit_mtc.cpython-310-x86_64-linux-gnu.so" to ""
+[166.010s] Invoked command in '/home/river2000/ur10_ws/build/moveit_task_constructor_core' returned '0': AMENT_PREFIX_PATH=/home/river2000/ur10_ws/install/rviz_marker_tools:/home/river2000/ur10_ws/install/moveit_task_constructor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/rviz_marker_tools:/home/river2000/ur10_ws/install/moveit_task_constructor_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/river2000/ur10_ws/install/rviz_marker_tools/lib:/home/river2000/ur10_ws/install/moveit_task_constructor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/river2000/ur10_ws/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/river2000/ur10_ws/build/moveit_task_constructor_core

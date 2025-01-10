@@ -1,0 +1,15 @@
+/home/river2000/ur10_ws/install/ur/share/ament_index/resource_index/package_run_dependencies/ur
+/home/river2000/ur10_ws/install/ur/share/ament_index/resource_index/parent_prefix_path/ur
+/home/river2000/ur10_ws/install/ur/share/ur/environment/ament_prefix_path.sh
+/home/river2000/ur10_ws/install/ur/share/ur/environment/ament_prefix_path.dsv
+/home/river2000/ur10_ws/install/ur/share/ur/environment/path.sh
+/home/river2000/ur10_ws/install/ur/share/ur/environment/path.dsv
+/home/river2000/ur10_ws/install/ur/share/ur/local_setup.bash
+/home/river2000/ur10_ws/install/ur/share/ur/local_setup.sh
+/home/river2000/ur10_ws/install/ur/share/ur/local_setup.zsh
+/home/river2000/ur10_ws/install/ur/share/ur/local_setup.dsv
+/home/river2000/ur10_ws/install/ur/share/ur/package.dsv
+/home/river2000/ur10_ws/install/ur/share/ament_index/resource_index/packages/ur
+/home/river2000/ur10_ws/install/ur/share/ur/cmake/urConfig.cmake
+/home/river2000/ur10_ws/install/ur/share/ur/cmake/urConfig-version.cmake
+/home/river2000/ur10_ws/install/ur/share/ur/package.xml

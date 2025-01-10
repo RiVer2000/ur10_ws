@@ -1,0 +1,36 @@
+[01m[K/home/river2000/ur10_ws/src/ROS2_ur_moveit_examples/src/hello_moveit.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/river2000/ur10_ws/src/ROS2_ur_moveit_examples/src/hello_moveit.cpp:51:64:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::computeCartesianPath(std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&, double, double)[m[K’
+   51 |     double fraction = [01;31m[Kmove_group_interface.computeCartesianPath([m[K
+      |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   52 | [01;31m[K        waypoints,  // Waypoints[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                
+   53 | [01;31m[K        0.01,       // EEF step (meters)[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                        
+   54 | [01;31m[K        0.0         // Jump threshold[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                           
+   55 | [01;31m[K    )[m[K;
+      |     [01;31m[K~[m[K                                                           
+In file included from [01m[K/home/river2000/ur10_ws/src/ROS2_ur_moveit_examples/src/hello_moveit.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:743:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdouble moveit::planning_interface::MoveGroupInterface::computeCartesianPath(const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&, double, double, moveit_msgs::msg::RobotTrajectory&, bool, moveit_msgs::msg::MoveItErrorCodes*)[m[K’
+  743 |   double [01;36m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose>& waypoints, double eef_step,
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:743:10:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 3 provided
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:759:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdouble moveit::planning_interface::MoveGroupInterface::computeCartesianPath(const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&, double, double, moveit_msgs::msg::RobotTrajectory&, const Constraints&, bool, moveit_msgs::msg::MoveItErrorCodes*)[m[K’
+  759 |   double [01;36m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose>& waypoints, double eef_step,
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:759:10:[m[K [01;36m[Knote: [m[K  candidate expects 7 arguments, 3 provided
+[01m[K/home/river2000/ur10_ws/src/ROS2_ur_moveit_examples/src/hello_moveit.cpp:68:99:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kmoveit_msgs::msg::RobotTrajectory[m[K’ {aka ‘[01m[Kmoveit_msgs::msg::RobotTrajectory_<std::allocator<void> >[m[K’} and ‘[01m[Kconst moveit::core::JointModelGroup*[m[K’)
+   68 |     plan.trajectory_ = move_group_interface.getCurrentState()->getJointModelGroup("ur_manipulator"[01;31m[K)[m[K;
+      |                                                                                                   [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/robot_trajectory.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:43[m[K,
+                 from [01m[K/home/river2000/ur10_ws/src/ROS2_ur_moveit_examples/src/hello_moveit.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__struct.hpp:38:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit_msgs::msg::RobotTrajectory_<std::allocator<void> >& moveit_msgs::msg::RobotTrajectory_<std::allocator<void> >::operator=(const moveit_msgs::msg::RobotTrajectory_<std::allocator<void> >&)[m[K’
+   38 | struct [01;36m[KRobotTrajectory_[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__struct.hpp:38:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst moveit::core::JointModelGroup*[m[K’ to ‘[01m[Kconst moveit_msgs::msg::RobotTrajectory_<std::allocator<void> >&[m[K’
+[01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__struct.hpp:38:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit_msgs::msg::RobotTrajectory_<std::allocator<void> >& moveit_msgs::msg::RobotTrajectory_<std::allocator<void> >::operator=(moveit_msgs::msg::RobotTrajectory_<std::allocator<void> >&&)[m[K’
+[01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__struct.hpp:38:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst moveit::core::JointModelGroup*[m[K’ to ‘[01m[Kmoveit_msgs::msg::RobotTrajectory_<std::allocator<void> >&&[m[K’
+gmake[2]: *** [CMakeFiles/hello_moveit.dir/build.make:76: CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:145: CMakeFiles/hello_moveit.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

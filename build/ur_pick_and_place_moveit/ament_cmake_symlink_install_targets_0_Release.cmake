@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/river2000/ur10_ws/build/ur_pick_and_place_moveit/ur_pick_and_place_moveit" "TARGETS" "ur_pick_and_place_moveit" "DESTINATION" "lib/ur_pick_and_place_moveit")

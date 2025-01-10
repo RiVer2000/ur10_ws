@@ -1,0 +1,1 @@
+/home/river2000/ur10_ws/build/ur_controllers/passthrough_trajectory_controller_parameters/include/passthrough_trajectory_controller_parameters.hpp

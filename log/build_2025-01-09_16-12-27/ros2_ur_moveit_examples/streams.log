@@ -1,0 +1,143 @@
+[0.023s] Invoking command in '/home/river2000/ur10_ws/build/ros2_ur_moveit_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/river2000/ur10_ws/src/ros2_control_demos/install/ros2_control_demo_testing:/home/river2000/ur10_ws/install/rqt_joint_trajectory_controller:/home/river2000/ur10_ws/install/rqt_controller_manager:/home/river2000/ur10_ws/install/ros2controlcli:/home/river2000/ur10_ws/install/ros2_controllers_test_nodes:/home/river2000/ur10_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake /home/river2000/ur10_ws/src/ROS2_ur_moveit_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/river2000/ur10_ws/install/ros2_ur_moveit_examples
+[0.122s] -- The C compiler identification is GNU 12.3.0
+[0.203s] -- The CXX compiler identification is GNU 11.4.0
+[0.217s] -- Detecting C compiler ABI info
+[0.327s] -- Detecting C compiler ABI info - done
+[0.335s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.335s] -- Detecting C compile features
+[0.336s] -- Detecting C compile features - done
+[0.339s] -- Detecting CXX compiler ABI info
+[0.442s] -- Detecting CXX compiler ABI info - done
+[0.449s] -- Check for working CXX compiler: /usr/lib/ccache/g++ - skipped
+[0.449s] -- Detecting CXX compile features
+[0.449s] -- Detecting CXX compile features - done
+[0.725s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time thread 
+[0.730s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.173s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.241s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.321s] -- Found control_msgs: 4.7.0 (/opt/ros/humble/share/control_msgs/cmake)
+[1.369s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.376s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.385s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.401s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.422s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.543s] -- Found moveit_common: 2.5.6 (/opt/ros/humble/share/moveit_common/cmake)
+[1.546s] -- Found moveit_core: 2.5.6 (/opt/ros/humble/share/moveit_core/cmake)
+[1.568s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.634s] -- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.685s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.693s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.913s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.950s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.017s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.029s] -- Found Threads: TRUE  
+[2.075s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.079s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.104s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.398s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.446s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.646s] -- Found moveit_ros_planning: 2.5.6 (/opt/ros/humble/share/moveit_ros_planning/cmake)
+[2.651s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[2.674s] -- Found moveit_ros_planning_interface: 2.5.6 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[2.678s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[2.692s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[2.714s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[2.741s] -- Found moveit_servo: 2.5.6 (/opt/ros/humble/share/moveit_servo/cmake)
+[2.775s] -- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+[2.779s] -- Found rviz_visual_tools: 4.1.4 (/opt/ros/humble/share/rviz_visual_tools/cmake)
+[2.808s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[2.819s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[2.820s] -- Found OGRE
+[2.820s] --   static     : OFF
+[2.820s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[2.820s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.820s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[2.820s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[2.821s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[2.821s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.821s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[2.821s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.821s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.821s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.821s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.855s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[2.865s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[3.204s] -- Found X11: /usr/include   
+[3.204s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[3.352s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[3.352s] -- Looking for gethostbyname
+[3.467s] -- Looking for gethostbyname - found
+[3.468s] -- Looking for connect
+[3.588s] -- Looking for connect - found
+[3.588s] -- Looking for remove
+[3.677s] -- Looking for remove - found
+[3.677s] -- Looking for shmat
+[3.790s] -- Looking for shmat - found
+[3.790s] -- Looking for IceConnectionNumber in ICE
+[3.949s] -- Looking for IceConnectionNumber in ICE - found
+[4.064s] -- Found moveit_visual_tools: 4.1.1 (/opt/ros/humble/share/moveit_visual_tools/cmake)
+[4.207s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.315s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.316s] -- Configured cppcheck include dirs: /home/river2000/ur10_ws/src/ROS2_ur_moveit_examples/include
+[4.316s] -- Configured cppcheck exclude dirs and/or files: 
+[4.319s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.321s] -- Added test 'lint_cmake' to check CMake code style
+[4.323s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.328s] -- Added test 'uncrustify' to check C / C++ code style
+[4.328s] -- Configured uncrustify additional arguments: 
+[4.330s] -- Added test 'xmllint' to check XML markup files
+[4.334s] -- Configuring done
+[4.434s] -- Generating done
+[4.462s] -- Build files have been written to: /home/river2000/ur10_ws/build/ros2_ur_moveit_examples
+[4.481s] Invoked command in '/home/river2000/ur10_ws/build/ros2_ur_moveit_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/river2000/ur10_ws/src/ros2_control_demos/install/ros2_control_demo_testing:/home/river2000/ur10_ws/install/rqt_joint_trajectory_controller:/home/river2000/ur10_ws/install/rqt_controller_manager:/home/river2000/ur10_ws/install/ros2controlcli:/home/river2000/ur10_ws/install/ros2_controllers_test_nodes:/home/river2000/ur10_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake /home/river2000/ur10_ws/src/ROS2_ur_moveit_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/river2000/ur10_ws/install/ros2_ur_moveit_examples
+[4.484s] Invoking command in '/home/river2000/ur10_ws/build/ros2_ur_moveit_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/river2000/ur10_ws/src/ros2_control_demos/install/ros2_control_demo_testing:/home/river2000/ur10_ws/install/rqt_joint_trajectory_controller:/home/river2000/ur10_ws/install/rqt_controller_manager:/home/river2000/ur10_ws/install/ros2controlcli:/home/river2000/ur10_ws/install/ros2_controllers_test_nodes:/home/river2000/ur10_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --build /home/river2000/ur10_ws/build/ros2_ur_moveit_examples -- -j16 -l16
+[4.587s] [ 10%] [32mBuilding CXX object CMakeFiles/check_collisions.dir/src/check_collisions.cpp.o[0m
+[4.589s] [ 20%] [32mBuilding CXX object CMakeFiles/kinematics.dir/src/kinematics.cpp.o[0m
+[4.590s] [ 30%] [32mBuilding CXX object CMakeFiles/planning_scene_service.dir/src/planning_scene_service.cpp.o[0m
+[4.592s] [ 40%] [32mBuilding CXX object CMakeFiles/planning_scene.dir/src/planning_scene.cpp.o[0m
+[4.595s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o[0m
+[4.628s] [ 60%] [32m[1mLinking CXX executable check_collisions[0m
+[4.638s] [ 80%] [32m[1mLinking CXX executable planning_scene_service[0m
+[4.638s] [ 80%] [32m[1mLinking CXX executable kinematics[0m
+[4.647s] [ 90%] [32m[1mLinking CXX executable planning_scene[0m
+[5.137s] [ 90%] Built target check_collisions
+[5.141s] [ 90%] Built target kinematics
+[5.287s] [ 90%] Built target planning_scene_service
+[5.412s] [ 90%] Built target planning_scene
+[11.650s] [01m[K/home/river2000/ur10_ws/src/ROS2_ur_moveit_examples/src/hello_moveit.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[11.651s] [01m[K/home/river2000/ur10_ws/src/ROS2_ur_moveit_examples/src/hello_moveit.cpp:51:64:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::computeCartesianPath(std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&, double, double)[m[K’
+[11.651s]    51 |     double fraction = [01;31m[Kmove_group_interface.computeCartesianPath([m[K
+[11.651s]       |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[11.651s]    52 | [01;31m[K        waypoints,  // Waypoints[m[K
+[11.651s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                
+[11.651s]    53 | [01;31m[K        0.01,       // EEF step (meters)[m[K
+[11.652s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                        
+[11.652s]    54 | [01;31m[K        0.0         // Jump threshold[m[K
+[11.652s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                           
+[11.652s]    55 | [01;31m[K    )[m[K;
+[11.652s]       |     [01;31m[K~[m[K                                                           
+[11.652s] In file included from [01m[K/home/river2000/ur10_ws/src/ROS2_ur_moveit_examples/src/hello_moveit.cpp:3[m[K:
+[11.652s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:743:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdouble moveit::planning_interface::MoveGroupInterface::computeCartesianPath(const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&, double, double, moveit_msgs::msg::RobotTrajectory&, bool, moveit_msgs::msg::MoveItErrorCodes*)[m[K’
+[11.652s]   743 |   double [01;36m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose>& waypoints, double eef_step,
+[11.652s]       |          [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[11.653s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:743:10:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 3 provided
+[11.653s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:759:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdouble moveit::planning_interface::MoveGroupInterface::computeCartesianPath(const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&, double, double, moveit_msgs::msg::RobotTrajectory&, const Constraints&, bool, moveit_msgs::msg::MoveItErrorCodes*)[m[K’
+[11.653s]   759 |   double [01;36m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose>& waypoints, double eef_step,
+[11.653s]       |          [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[11.653s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:759:10:[m[K [01;36m[Knote: [m[K  candidate expects 7 arguments, 3 provided
+[11.653s] [01m[K/home/river2000/ur10_ws/src/ROS2_ur_moveit_examples/src/hello_moveit.cpp:68:99:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kmoveit_msgs::msg::RobotTrajectory[m[K’ {aka ‘[01m[Kmoveit_msgs::msg::RobotTrajectory_<std::allocator<void> >[m[K’} and ‘[01m[Kconst moveit::core::JointModelGroup*[m[K’)
+[11.653s]    68 |     plan.trajectory_ = move_group_interface.getCurrentState()->getJointModelGroup("ur_manipulator"[01;31m[K)[m[K;
+[11.653s]       |                                                                                                   [01;31m[K^[m[K
+[11.653s] In file included from [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/robot_trajectory.hpp:7[m[K,
+[11.653s]                  from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:43[m[K,
+[11.654s]                  from [01m[K/home/river2000/ur10_ws/src/ROS2_ur_moveit_examples/src/hello_moveit.cpp:3[m[K:
+[11.654s] [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__struct.hpp:38:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit_msgs::msg::RobotTrajectory_<std::allocator<void> >& moveit_msgs::msg::RobotTrajectory_<std::allocator<void> >::operator=(const moveit_msgs::msg::RobotTrajectory_<std::allocator<void> >&)[m[K’
+[11.654s]    38 | struct [01;36m[KRobotTrajectory_[m[K
+[11.654s]       |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[11.654s] [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__struct.hpp:38:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst moveit::core::JointModelGroup*[m[K’ to ‘[01m[Kconst moveit_msgs::msg::RobotTrajectory_<std::allocator<void> >&[m[K’
+[11.654s] [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__struct.hpp:38:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit_msgs::msg::RobotTrajectory_<std::allocator<void> >& moveit_msgs::msg::RobotTrajectory_<std::allocator<void> >::operator=(moveit_msgs::msg::RobotTrajectory_<std::allocator<void> >&&)[m[K’
+[11.654s] [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__struct.hpp:38:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst moveit::core::JointModelGroup*[m[K’ to ‘[01m[Kmoveit_msgs::msg::RobotTrajectory_<std::allocator<void> >&&[m[K’
+[11.654s] gmake[2]: *** [CMakeFiles/hello_moveit.dir/build.make:76: CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o] Error 1
+[11.654s] gmake[1]: *** [CMakeFiles/Makefile2:145: CMakeFiles/hello_moveit.dir/all] Error 2
+[11.655s] gmake: *** [Makefile:146: all] Error 2
+[11.661s] Invoked command in '/home/river2000/ur10_ws/build/ros2_ur_moveit_examples' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/river2000/ur10_ws/src/ros2_control_demos/install/ros2_control_demo_testing:/home/river2000/ur10_ws/install/rqt_joint_trajectory_controller:/home/river2000/ur10_ws/install/rqt_controller_manager:/home/river2000/ur10_ws/install/ros2controlcli:/home/river2000/ur10_ws/install/ros2_controllers_test_nodes:/home/river2000/ur10_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --build /home/river2000/ur10_ws/build/ros2_ur_moveit_examples -- -j16 -l16

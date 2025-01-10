@@ -1,0 +1,1 @@
+/home/river2000/ur10_ws/build/ur_pick_and_place_moveit/ament_cmake_core/ur_pick_and_place_moveitConfig.cmake

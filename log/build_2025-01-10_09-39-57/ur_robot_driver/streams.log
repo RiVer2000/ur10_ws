@@ -1,0 +1,141 @@
+[0.028s] Invoking command in '/home/river2000/ur10_ws/build/ur_robot_driver': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/river2000/ur10_ws/install/ur_controllers/lib:/home/river2000/ur10_ws/install/ur_dashboard_msgs/lib:/home/river2000/ur10_ws/install/ur_robot_driver/lib:/usr/local/cuda-11.8/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_robot_driver -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/river2000/ur10_ws/install/ur_robot_driver
+[0.048s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.247s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.267s] -- Found controller_manager: 2.46.0 (/opt/ros/humble/share/controller_manager/cmake)
+[0.328s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.332s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.340s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.354s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.373s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.622s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.624s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.650s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.666s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.695s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.710s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.728s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.840s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[0.840s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[0.852s] -- Found tf2_geometry_msgs: 0.25.9 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.857s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.859s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.928s] -- Found ur_dashboard_msgs: 2.5.1 (/home/river2000/ur10_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+[0.950s] -- Found ur_msgs: 2.1.0 (/opt/ros/humble/share/ur_msgs/cmake)
+[1.335s] -- Found ur_controllers: 2.5.1 (/home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/cmake)
+[1.369s] -- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.429s] -- Found ur_description: 2.1.9 (/home/river2000/ur10_ws/install/ur_description/share/ur_description/cmake)
+[1.430s] -- Found launch_testing_ament_cmake: 1.0.7 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[1.430s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.481s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.481s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.481s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.483s] -- Configuring done
+[1.679s] -- Generating done
+[1.709s] -- Build files have been written to: /home/river2000/ur10_ws/build/ur_robot_driver
+[1.729s] Invoked command in '/home/river2000/ur10_ws/build/ur_robot_driver' returned '0': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/river2000/ur10_ws/install/ur_controllers/lib:/home/river2000/ur10_ws/install/ur_dashboard_msgs/lib:/home/river2000/ur10_ws/install/ur_robot_driver/lib:/usr/local/cuda-11.8/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_robot_driver -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/river2000/ur10_ws/install/ur_robot_driver
+[1.733s] Invoking command in '/home/river2000/ur10_ws/build/ur_robot_driver': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/river2000/ur10_ws/install/ur_controllers/lib:/home/river2000/ur10_ws/install/ur_dashboard_msgs/lib:/home/river2000/ur10_ws/install/ur_robot_driver/lib:/usr/local/cuda-11.8/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/river2000/ur10_ws/build/ur_robot_driver -- -j16 -l16
+[1.860s] [35m[1mConsolidate compiler generated dependencies of target urscript_interface[0m
+[1.860s] [35m[1mConsolidate compiler generated dependencies of target ur_ros2_control_node[0m
+[1.861s] [35m[1mConsolidate compiler generated dependencies of target controller_stopper_node[0m
+[1.861s] [35m[1mConsolidate compiler generated dependencies of target ur_robot_driver_plugin[0m
+[1.863s] [35m[1mConsolidate compiler generated dependencies of target dashboard_client[0m
+[1.913s] [ 20%] Built target controller_stopper_node
+[1.916s] [ 33%] Built target urscript_interface
+[1.920s] [ 46%] Built target ur_ros2_control_node
+[1.920s] [ 46%] Built target ament_cmake_python_symlink_ur_robot_driver
+[1.931s] [ 73%] Built target dashboard_client
+[1.933s] [100%] Built target ur_robot_driver_plugin
+[2.573s] running egg_info
+[2.606s] writing ur_robot_driver.egg-info/PKG-INFO
+[2.607s] writing dependency_links to ur_robot_driver.egg-info/dependency_links.txt
+[2.607s] writing top-level names to ur_robot_driver.egg-info/top_level.txt
+[2.700s] reading manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[2.701s] writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[2.760s] [100%] Built target ament_cmake_python_build_ur_robot_driver_egg
+[2.783s] Invoked command in '/home/river2000/ur10_ws/build/ur_robot_driver' returned '0': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/river2000/ur10_ws/install/ur_controllers/lib:/home/river2000/ur10_ws/install/ur_dashboard_msgs/lib:/home/river2000/ur10_ws/install/ur_robot_driver/lib:/usr/local/cuda-11.8/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/river2000/ur10_ws/build/ur_robot_driver -- -j16 -l16
+[2.787s] Invoking command in '/home/river2000/ur10_ws/build/ur_robot_driver': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/river2000/ur10_ws/install/ur_controllers/lib:/home/river2000/ur10_ws/install/ur_dashboard_msgs/lib:/home/river2000/ur10_ws/install/ur_robot_driver/lib:/usr/local/cuda-11.8/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/river2000/ur10_ws/build/ur_robot_driver
+[2.800s] -- Install configuration: "Release"
+[2.801s] -- Execute custom install script
+[2.801s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver//hardware_interface_plugin.xml
+[2.801s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/lib/ur_robot_driver/dashboard_client
+[2.802s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/lib/ur_robot_driver/ur_ros2_control_node
+[2.802s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/lib/ur_robot_driver/controller_stopper_node
+[2.802s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/lib/ur_robot_driver/urscript_interface
+[2.802s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/lib/libur_robot_driver_plugin.so
+[2.803s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/include/ur_robot_driver/controller_stopper.hpp
+[2.804s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/include/ur_robot_driver/dashboard_client_ros.hpp
+[2.804s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/include/ur_robot_driver/hardware_interface.hpp
+[2.804s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/include/ur_robot_driver/urcl_log_handler.hpp
+[2.804s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/environment/library_path.sh
+[2.805s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/environment/library_path.dsv
+[2.805s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/include/ur_robot_driver/controller_stopper.hpp
+[2.805s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/include/ur_robot_driver/dashboard_client_ros.hpp
+[2.805s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/include/ur_robot_driver/hardware_interface.hpp
+[2.806s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/include/ur_robot_driver/urcl_log_handler.hpp
+[2.806s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/environment/pythonpath.sh
+[2.806s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/environment/pythonpath.dsv
+[2.806s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.5.1-py3.10.egg-info/PKG-INFO
+[2.807s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.5.1-py3.10.egg-info/SOURCES.txt
+[2.807s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.5.1-py3.10.egg-info/dependency_links.txt
+[2.807s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.5.1-py3.10.egg-info/top_level.txt
+[2.807s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver/__init__.py
+[2.808s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/lib/ur_robot_driver/tool_communication.py
+[2.808s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/lib/ur_robot_driver/example_move.py
+[2.808s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/lib/ur_robot_driver/start_ursim.sh
+[2.808s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/lib/ur_robot_driver/examples.py
+[2.809s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/lib/ur_robot_driver/force_mode.py
+[2.809s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/bin/wait_dashboard_server.sh
+[2.809s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/lib/ur_robot_driver/start_ursim.sh
+[2.810s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/config/test_goal_publishers_config.yaml
+[2.810s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/config/test_velocity_goal_publishers_config.yaml
+[2.810s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur10_update_rate.yaml
+[2.810s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur10e_update_rate.yaml
+[2.811s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur16e_update_rate.yaml
+[2.811s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur20_update_rate.yaml
+[2.811s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur30_update_rate.yaml
+[2.811s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur3_update_rate.yaml
+[2.812s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur3e_update_rate.yaml
+[2.812s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur5_update_rate.yaml
+[2.812s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur5e_update_rate.yaml
+[2.812s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur_controllers.yaml
+[2.812s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/launch/test_forward_velocity_controller.launch.py
+[2.813s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/launch/test_joint_trajectory_controller.launch.py
+[2.813s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/launch/test_scaled_joint_trajectory_controller.launch.py
+[2.813s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur10.launch.py
+[2.814s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur10e.launch.py
+[2.814s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur16e.launch.py
+[2.814s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur20.launch.py
+[2.814s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur3.launch.py
+[2.815s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur30.launch.py
+[2.815s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur3e.launch.py
+[2.815s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur5.launch.py
+[2.815s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur5e.launch.py
+[2.815s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur_control.launch.py
+[2.816s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur_dashboard_client.launch.py
+[2.816s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ament_index/resource_index/package_run_dependencies/ur_robot_driver
+[2.816s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ament_index/resource_index/parent_prefix_path/ur_robot_driver
+[2.816s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/environment/ament_prefix_path.sh
+[2.816s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/environment/ament_prefix_path.dsv
+[2.816s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/environment/path.sh
+[2.817s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/environment/path.dsv
+[2.817s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.bash
+[2.817s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.sh
+[2.817s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.zsh
+[2.817s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.dsv
+[2.817s] -- Symlinking: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/package.dsv
+[2.843s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ament_index/resource_index/packages/ur_robot_driver
+[2.843s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ur_robot_driver
+[2.843s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.843s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[2.843s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.844s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ur_robot_driverConfig.cmake
+[2.844s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ur_robot_driverConfig-version.cmake
+[2.844s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/package.xml
+[2.844s] -- Up-to-date: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/resources
+[2.844s] -- Up-to-date: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_input_recipe.txt
+[2.844s] -- Up-to-date: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/resources/externalcontrol-1.0.5.urcap
+[2.845s] -- Up-to-date: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/resources/ros_control.urscript
+[2.845s] -- Up-to-date: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/resources/rs485-1.0.urcap
+[2.845s] -- Up-to-date: /home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_output_recipe.txt
+[2.893s] Listing '/home/river2000/ur10_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver'...
+[2.904s] Invoked command in '/home/river2000/ur10_ws/build/ur_robot_driver' returned '0': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/river2000/ur10_ws/install/ur_controllers/lib:/home/river2000/ur10_ws/install/ur_dashboard_msgs/lib:/home/river2000/ur10_ws/install/ur_robot_driver/lib:/usr/local/cuda-11.8/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/river2000/ur10_ws/build/ur_robot_driver

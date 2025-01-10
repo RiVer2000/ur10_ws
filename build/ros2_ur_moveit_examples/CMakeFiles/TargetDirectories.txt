@@ -1,0 +1,10 @@
+/home/river2000/ur10_ws/build/ros2_ur_moveit_examples/CMakeFiles/uninstall.dir
+/home/river2000/ur10_ws/build/ros2_ur_moveit_examples/CMakeFiles/ros2_ur_moveit_examples_uninstall.dir
+/home/river2000/ur10_ws/build/ros2_ur_moveit_examples/CMakeFiles/hello_moveit.dir
+/home/river2000/ur10_ws/build/ros2_ur_moveit_examples/CMakeFiles/test.dir
+/home/river2000/ur10_ws/build/ros2_ur_moveit_examples/CMakeFiles/edit_cache.dir
+/home/river2000/ur10_ws/build/ros2_ur_moveit_examples/CMakeFiles/rebuild_cache.dir
+/home/river2000/ur10_ws/build/ros2_ur_moveit_examples/CMakeFiles/list_install_components.dir
+/home/river2000/ur10_ws/build/ros2_ur_moveit_examples/CMakeFiles/install.dir
+/home/river2000/ur10_ws/build/ros2_ur_moveit_examples/CMakeFiles/install/local.dir
+/home/river2000/ur10_ws/build/ros2_ur_moveit_examples/CMakeFiles/install/strip.dir

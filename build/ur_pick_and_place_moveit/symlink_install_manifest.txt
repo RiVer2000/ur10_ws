@@ -1,0 +1,17 @@
+/home/river2000/ur10_ws/install/ur_pick_and_place_moveit/lib/ur_pick_and_place_moveit/ur_pick_and_place_moveit
+/home/river2000/ur10_ws/install/ur_pick_and_place_moveit/share/ur_pick_and_place_moveit//launch/pick_and_place_moveit_launch.py
+/home/river2000/ur10_ws/install/ur_pick_and_place_moveit/share/ament_index/resource_index/package_run_dependencies/ur_pick_and_place_moveit
+/home/river2000/ur10_ws/install/ur_pick_and_place_moveit/share/ament_index/resource_index/parent_prefix_path/ur_pick_and_place_moveit
+/home/river2000/ur10_ws/install/ur_pick_and_place_moveit/share/ur_pick_and_place_moveit/environment/ament_prefix_path.sh
+/home/river2000/ur10_ws/install/ur_pick_and_place_moveit/share/ur_pick_and_place_moveit/environment/ament_prefix_path.dsv
+/home/river2000/ur10_ws/install/ur_pick_and_place_moveit/share/ur_pick_and_place_moveit/environment/path.sh
+/home/river2000/ur10_ws/install/ur_pick_and_place_moveit/share/ur_pick_and_place_moveit/environment/path.dsv
+/home/river2000/ur10_ws/install/ur_pick_and_place_moveit/share/ur_pick_and_place_moveit/local_setup.bash
+/home/river2000/ur10_ws/install/ur_pick_and_place_moveit/share/ur_pick_and_place_moveit/local_setup.sh
+/home/river2000/ur10_ws/install/ur_pick_and_place_moveit/share/ur_pick_and_place_moveit/local_setup.zsh
+/home/river2000/ur10_ws/install/ur_pick_and_place_moveit/share/ur_pick_and_place_moveit/local_setup.dsv
+/home/river2000/ur10_ws/install/ur_pick_and_place_moveit/share/ur_pick_and_place_moveit/package.dsv
+/home/river2000/ur10_ws/install/ur_pick_and_place_moveit/share/ament_index/resource_index/packages/ur_pick_and_place_moveit
+/home/river2000/ur10_ws/install/ur_pick_and_place_moveit/share/ur_pick_and_place_moveit/cmake/ur_pick_and_place_moveitConfig.cmake
+/home/river2000/ur10_ws/install/ur_pick_and_place_moveit/share/ur_pick_and_place_moveit/cmake/ur_pick_and_place_moveitConfig-version.cmake
+/home/river2000/ur10_ws/install/ur_pick_and_place_moveit/share/ur_pick_and_place_moveit/package.xml

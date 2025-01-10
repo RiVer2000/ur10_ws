@@ -1,0 +1,96 @@
+[0.033s] Invoking command in '/home/river2000/ur10_ws/build/ur_controllers': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/river2000/ur10_ws/install/ur_dashboard_msgs/lib:/home/river2000/ur10_ws/install/ur_robot_driver/lib:/home/river2000/ur10_ws/install/ur_controllers/lib:/usr/local/cuda-11.8/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_controllers -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/river2000/ur10_ws/install/ur_controllers
+[0.057s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.284s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.302s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.305s] -- Found controller_interface: 2.46.0 (/opt/ros/humble/share/controller_interface/cmake)
+[0.359s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.363s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.371s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.385s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.402s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.643s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.645s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.672s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.685s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.712s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.726s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.744s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.810s] -- Found joint_trajectory_controller: 2.39.0 (/opt/ros/humble/share/joint_trajectory_controller/cmake)
+[0.835s] -- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.864s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[0.876s] -- Found tf2_geometry_msgs: 0.25.9 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.880s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.882s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.950s] -- Found ur_dashboard_msgs: 2.5.1 (/home/river2000/ur10_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+[0.972s] -- Found ur_msgs: 2.1.0 (/opt/ros/humble/share/ur_msgs/cmake)
+[1.023s] -- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[1.024s] -- Found controller_manager: 2.46.0 (/opt/ros/humble/share/controller_manager/cmake)
+[1.055s] -- Found ros2_control_test_assets: 2.46.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)
+[1.056s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.059s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.060s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.228s] -- Configuring done
+[1.378s] -- Generating done
+[1.405s] -- Build files have been written to: /home/river2000/ur10_ws/build/ur_controllers
+[1.425s] Invoked command in '/home/river2000/ur10_ws/build/ur_controllers' returned '0': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/river2000/ur10_ws/install/ur_dashboard_msgs/lib:/home/river2000/ur10_ws/install/ur_robot_driver/lib:/home/river2000/ur10_ws/install/ur_controllers/lib:/usr/local/cuda-11.8/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_controllers -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/river2000/ur10_ws/install/ur_controllers
+[1.427s] Invoking command in '/home/river2000/ur10_ws/build/ur_controllers': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/river2000/ur10_ws/install/ur_dashboard_msgs/lib:/home/river2000/ur10_ws/install/ur_robot_driver/lib:/home/river2000/ur10_ws/install/ur_controllers/lib:/usr/local/cuda-11.8/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/river2000/ur10_ws/build/ur_controllers -- -j16 -l16
+[1.515s] [35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[1.515s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[1.529s] [  4%] Built target force_mode_controller_parameters
+[1.529s] [  8%] Built target gpio_controller_parameters
+[1.529s] [ 12%] Built target passthrough_trajectory_controller_parameters
+[1.532s] [ 16%] Built target scaled_joint_trajectory_controller_parameters
+[1.532s] [ 20%] Built target speed_scaling_state_broadcaster_parameters
+[1.538s] [ 25%] Built target freedrive_mode_controller_parameters
+[1.538s] [ 29%] Built target ur_configuration_controller_parameters
+[1.540s] [ 37%] Built target gmock_main
+[1.544s] [ 50%] Built target gmock
+[1.564s] [35m[1mConsolidate compiler generated dependencies of target ur_controllers[0m
+[1.630s] [ 83%] Built target ur_controllers
+[1.657s] [35m[1mConsolidate compiler generated dependencies of target test_load_force_mode_controller[0m
+[1.663s] [35m[1mConsolidate compiler generated dependencies of target test_load_freedrive_mode_controller[0m
+[1.699s] [ 91%] Built target test_load_force_mode_controller
+[1.708s] [100%] Built target test_load_freedrive_mode_controller
+[1.739s] Invoked command in '/home/river2000/ur10_ws/build/ur_controllers' returned '0': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/river2000/ur10_ws/install/ur_dashboard_msgs/lib:/home/river2000/ur10_ws/install/ur_robot_driver/lib:/home/river2000/ur10_ws/install/ur_controllers/lib:/usr/local/cuda-11.8/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/river2000/ur10_ws/build/ur_controllers -- -j16 -l16
+[1.743s] Invoking command in '/home/river2000/ur10_ws/build/ur_controllers': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/river2000/ur10_ws/install/ur_dashboard_msgs/lib:/home/river2000/ur10_ws/install/ur_robot_driver/lib:/home/river2000/ur10_ws/install/ur_controllers/lib:/usr/local/cuda-11.8/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/river2000/ur10_ws/build/ur_controllers
+[1.754s] -- Install configuration: "Release"
+[1.755s] -- Execute custom install script
+[1.755s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/include/force_mode_controller_parameters/force_mode_controller_parameters.hpp
+[1.756s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/include/gpio_controller_parameters/gpio_controller_parameters.hpp
+[1.756s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/include/speed_scaling_state_broadcaster_parameters/speed_scaling_state_broadcaster_parameters.hpp
+[1.756s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/include/scaled_joint_trajectory_controller_parameters/scaled_joint_trajectory_controller_parameters.hpp
+[1.757s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/include/freedrive_mode_controller_parameters/freedrive_mode_controller_parameters.hpp
+[1.757s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/include/passthrough_trajectory_controller_parameters/passthrough_trajectory_controller_parameters.hpp
+[1.757s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/include/ur_configuration_controller_parameters/ur_configuration_controller_parameters.hpp
+[1.758s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers//controller_plugins.xml
+[1.758s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/lib/libur_controllers.so
+[1.759s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/include/ur_controllers/force_mode_controller.hpp
+[1.760s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp
+[1.760s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/include/ur_controllers/gpio_controller.hpp
+[1.761s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller.hpp
+[1.761s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.hpp
+[1.761s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster.hpp
+[1.761s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller.hpp
+[1.762s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[1.762s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/environment/library_path.sh
+[1.762s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/environment/library_path.dsv
+[1.763s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ament_index/resource_index/package_run_dependencies/ur_controllers
+[1.765s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ament_index/resource_index/parent_prefix_path/ur_controllers
+[1.765s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.sh
+[1.765s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.dsv
+[1.765s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/environment/path.sh
+[1.765s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/environment/path.dsv
+[1.765s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/local_setup.bash
+[1.765s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/local_setup.sh
+[1.766s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/local_setup.zsh
+[1.766s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/local_setup.dsv
+[1.766s] -- Symlinking: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/package.dsv
+[1.788s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ament_index/resource_index/packages/ur_controllers
+[1.788s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ur_controllers
+[1.789s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.789s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.789s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[1.790s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig.cmake
+[1.790s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig-version.cmake
+[1.790s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/package.xml
+[1.795s] Invoked command in '/home/river2000/ur10_ws/build/ur_controllers' returned '0': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/river2000/ur10_ws/install/ur_dashboard_msgs/lib:/home/river2000/ur10_ws/install/ur_robot_driver/lib:/home/river2000/ur10_ws/install/ur_controllers/lib:/usr/local/cuda-11.8/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/river2000/ur10_ws/build/ur_controllers

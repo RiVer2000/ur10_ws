@@ -1,0 +1,1 @@
+/home/river2000/ur10_ws/build/ros2_ur_moveit_examples/ament_cmake_core/ros2_ur_moveit_examplesConfig.cmake

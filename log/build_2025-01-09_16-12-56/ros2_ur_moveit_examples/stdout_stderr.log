@@ -1,0 +1,39 @@
+[35m[1mConsolidate compiler generated dependencies of target hello_moveit[0m
+[35m[1mConsolidate compiler generated dependencies of target kinematics[0m
+[35m[1mConsolidate compiler generated dependencies of target planning_scene[0m
+[35m[1mConsolidate compiler generated dependencies of target check_collisions[0m
+[35m[1mConsolidate compiler generated dependencies of target planning_scene_service[0m
+[ 30%] Built target kinematics
+[ 30%] [32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o[0m
+[ 50%] Built target planning_scene
+[ 70%] Built target check_collisions
+[ 90%] Built target planning_scene_service
+[100%] [32m[1mLinking CXX executable hello_moveit[0m
+[100%] Built target hello_moveit
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ros2_ur_moveit_examples/launch/check_collisions.launch.py
+-- Symlinking: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ros2_ur_moveit_examples/launch/hello_moveit.launch.py
+-- Symlinking: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ros2_ur_moveit_examples/launch/kinematics.launch.py
+-- Symlinking: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ros2_ur_moveit_examples/launch/planning_scene.launch.py
+-- Symlinking: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ros2_ur_moveit_examples/launch/planning_scene_service.launch.py
+-- Symlinking: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/lib/ros2_ur_moveit_examples/hello_moveit
+-- Symlinking: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/lib/ros2_ur_moveit_examples/kinematics
+-- Symlinking: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/lib/ros2_ur_moveit_examples/check_collisions
+-- Symlinking: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/lib/ros2_ur_moveit_examples/planning_scene
+-- Symlinking: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/lib/ros2_ur_moveit_examples/planning_scene_service
+-- Symlinking: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ament_index/resource_index/package_run_dependencies/ros2_ur_moveit_examples
+-- Symlinking: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ament_index/resource_index/parent_prefix_path/ros2_ur_moveit_examples
+-- Symlinking: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ros2_ur_moveit_examples/environment/ament_prefix_path.sh
+-- Symlinking: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ros2_ur_moveit_examples/environment/ament_prefix_path.dsv
+-- Symlinking: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ros2_ur_moveit_examples/environment/path.sh
+-- Symlinking: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ros2_ur_moveit_examples/environment/path.dsv
+-- Symlinking: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ros2_ur_moveit_examples/local_setup.bash
+-- Symlinking: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ros2_ur_moveit_examples/local_setup.sh
+-- Symlinking: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ros2_ur_moveit_examples/local_setup.zsh
+-- Symlinking: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ros2_ur_moveit_examples/local_setup.dsv
+-- Symlinking: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ros2_ur_moveit_examples/package.dsv
+-- Symlinking: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ament_index/resource_index/packages/ros2_ur_moveit_examples
+-- Symlinking: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ros2_ur_moveit_examples/cmake/ros2_ur_moveit_examplesConfig.cmake
+-- Symlinking: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ros2_ur_moveit_examples/cmake/ros2_ur_moveit_examplesConfig-version.cmake
+-- Symlinking: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ros2_ur_moveit_examples/package.xml

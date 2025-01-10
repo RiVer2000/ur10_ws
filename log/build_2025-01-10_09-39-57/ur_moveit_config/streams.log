@@ -1,0 +1,55 @@
+[0.019s] Invoking command in '/home/river2000/ur10_ws/build/ur_moveit_config': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble /usr/bin/cmake /home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_moveit_config -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/river2000/ur10_ws/install/ur_moveit_config
+[0.043s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.254s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.477s] -- Configuring done
+[0.488s] -- Generating done
+[0.495s] -- Build files have been written to: /home/river2000/ur10_ws/build/ur_moveit_config
+[0.502s] Invoked command in '/home/river2000/ur10_ws/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble /usr/bin/cmake /home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_moveit_config -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/river2000/ur10_ws/install/ur_moveit_config
+[0.505s] Invoking command in '/home/river2000/ur10_ws/build/ur_moveit_config': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble /usr/bin/cmake --build /home/river2000/ur10_ws/build/ur_moveit_config -- -j16 -l16
+[0.616s] Built target ament_cmake_python_symlink_ur_moveit_config
+[0.977s] running egg_info
+[1.009s] writing ur_moveit_config.egg-info/PKG-INFO
+[1.010s] writing dependency_links to ur_moveit_config.egg-info/dependency_links.txt
+[1.010s] writing top-level names to ur_moveit_config.egg-info/top_level.txt
+[1.102s] reading manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[1.103s] writing manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[1.154s] Built target ament_cmake_python_build_ur_moveit_config_egg
+[1.174s] Invoked command in '/home/river2000/ur10_ws/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble /usr/bin/cmake --build /home/river2000/ur10_ws/build/ur_moveit_config -- -j16 -l16
+[1.178s] Invoking command in '/home/river2000/ur10_ws/build/ur_moveit_config': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble /usr/bin/cmake --install /home/river2000/ur10_ws/build/ur_moveit_config
+[1.197s] -- Install configuration: "Release"
+[1.197s] -- Execute custom install script
+[1.198s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_moveit_config/share/ur_moveit_config/config/controllers.yaml
+[1.198s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_moveit_config/share/ur_moveit_config/config/joint_limits.yaml
+[1.198s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_moveit_config/share/ur_moveit_config/config/kinematics.yaml
+[1.199s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_moveit_config/share/ur_moveit_config/config/ompl_planning.yaml
+[1.199s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_moveit_config/share/ur_moveit_config/config/ur_servo.yaml
+[1.199s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_moveit_config/share/ur_moveit_config/launch/ur_moveit.launch.py
+[1.199s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_moveit_config/share/ur_moveit_config/rviz/view_robot.rviz
+[1.200s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_moveit_config/share/ur_moveit_config/srdf/ur.srdf.xacro
+[1.200s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_moveit_config/share/ur_moveit_config/srdf/ur_macro.srdf.xacro
+[1.200s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_moveit_config/share/ur_moveit_config/environment/pythonpath.sh
+[1.200s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_moveit_config/share/ur_moveit_config/environment/pythonpath.dsv
+[1.201s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.5.1-py3.10.egg-info/PKG-INFO
+[1.201s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.5.1-py3.10.egg-info/SOURCES.txt
+[1.201s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.5.1-py3.10.egg-info/dependency_links.txt
+[1.201s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.5.1-py3.10.egg-info/top_level.txt
+[1.202s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/__init__.py
+[1.202s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/launch_common.py
+[1.202s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/launch_common.py
+[1.202s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_moveit_config/share/ament_index/resource_index/package_run_dependencies/ur_moveit_config
+[1.202s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_moveit_config/share/ament_index/resource_index/parent_prefix_path/ur_moveit_config
+[1.203s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.sh
+[1.203s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.dsv
+[1.203s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_moveit_config/share/ur_moveit_config/environment/path.sh
+[1.203s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_moveit_config/share/ur_moveit_config/environment/path.dsv
+[1.204s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_moveit_config/share/ur_moveit_config/local_setup.bash
+[1.204s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_moveit_config/share/ur_moveit_config/local_setup.sh
+[1.204s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_moveit_config/share/ur_moveit_config/local_setup.zsh
+[1.204s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_moveit_config/share/ur_moveit_config/local_setup.dsv
+[1.205s] -- Symlinking: /home/river2000/ur10_ws/install/ur_moveit_config/share/ur_moveit_config/package.dsv
+[1.232s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_moveit_config/share/ament_index/resource_index/packages/ur_moveit_config
+[1.234s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig.cmake
+[1.234s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig-version.cmake
+[1.234s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_moveit_config/share/ur_moveit_config/package.xml
+[1.294s] Listing '/home/river2000/ur10_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config'...
+[1.394s] Invoked command in '/home/river2000/ur10_ws/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble /usr/bin/cmake --install /home/river2000/ur10_ws/build/ur_moveit_config

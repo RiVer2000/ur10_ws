@@ -1,0 +1,60 @@
+[0.029s] Invoking command in '/home/river2000/ur10_ws/build/ur_calibration': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble /usr/bin/cmake /home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_calibration -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/river2000/ur10_ws/install/ur_calibration
+[0.046s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.261s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.277s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.354s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.362s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.378s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.403s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.435s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.518s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.522s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.891s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.061s] -- Found ur_robot_driver: 2.5.1 (/home/river2000/ur10_ws/install/ur_robot_driver/share/ur_robot_driver/cmake)
+[1.713s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.719s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.267s] -- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[2.269s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.286s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.286s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.572s] -- Configuring done
+[2.903s] -- Generating done
+[2.948s] -- Build files have been written to: /home/river2000/ur10_ws/build/ur_calibration
+[2.999s] Invoked command in '/home/river2000/ur10_ws/build/ur_calibration' returned '0': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble /usr/bin/cmake /home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_calibration -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/river2000/ur10_ws/install/ur_calibration
+[3.007s] Invoking command in '/home/river2000/ur10_ws/build/ur_calibration': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble /usr/bin/cmake --build /home/river2000/ur10_ws/build/ur_calibration -- -j16 -l16
+[3.206s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[3.229s] [35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[3.236s] [35m[1mConsolidate compiler generated dependencies of target calibration[0m
+[3.302s] [ 25%] Built target gmock
+[3.319s] [ 41%] Built target gmock_main
+[3.362s] [ 66%] Built target calibration
+[3.432s] [35m[1mConsolidate compiler generated dependencies of target calibration_test[0m
+[3.440s] [35m[1mConsolidate compiler generated dependencies of target calibration_correction[0m
+[3.501s] [ 83%] Built target calibration_test
+[3.567s] [100%] Built target calibration_correction
+[3.643s] Invoked command in '/home/river2000/ur10_ws/build/ur_calibration' returned '0': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble /usr/bin/cmake --build /home/river2000/ur10_ws/build/ur_calibration -- -j16 -l16
+[3.646s] Invoking command in '/home/river2000/ur10_ws/build/ur_calibration': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble /usr/bin/cmake --install /home/river2000/ur10_ws/build/ur_calibration
+[3.673s] -- Install configuration: "Release"
+[3.675s] -- Execute custom install script
+[3.680s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_calibration/lib/ur_calibration/calibration_correction
+[3.680s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_calibration/include/ur_calibration/calibration.hpp
+[3.680s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_calibration/include/ur_calibration/calibration_consumer.hpp
+[3.680s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_calibration/share/ur_calibration/launch/calibration_correction.launch.py
+[3.684s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_calibration/share/ament_index/resource_index/package_run_dependencies/ur_calibration
+[3.685s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_calibration/share/ament_index/resource_index/parent_prefix_path/ur_calibration
+[3.685s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_calibration/share/ur_calibration/environment/ament_prefix_path.sh
+[3.685s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_calibration/share/ur_calibration/environment/ament_prefix_path.dsv
+[3.686s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_calibration/share/ur_calibration/environment/path.sh
+[3.686s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_calibration/share/ur_calibration/environment/path.dsv
+[3.686s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_calibration/share/ur_calibration/local_setup.bash
+[3.686s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_calibration/share/ur_calibration/local_setup.sh
+[3.686s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_calibration/share/ur_calibration/local_setup.zsh
+[3.686s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_calibration/share/ur_calibration/local_setup.dsv
+[3.687s] -- Symlinking: /home/river2000/ur10_ws/install/ur_calibration/share/ur_calibration/package.dsv
+[3.745s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_calibration/share/ament_index/resource_index/packages/ur_calibration
+[3.745s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_calibration/share/ur_calibration/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.746s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_calibration/share/ur_calibration/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.748s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_calibration/share/ur_calibration/cmake/ur_calibrationConfig.cmake
+[3.749s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_calibration/share/ur_calibration/cmake/ur_calibrationConfig-version.cmake
+[3.750s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_calibration/share/ur_calibration/package.xml
+[3.766s] Invoked command in '/home/river2000/ur10_ws/build/ur_calibration' returned '0': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble /usr/bin/cmake --install /home/river2000/ur10_ws/build/ur_calibration
