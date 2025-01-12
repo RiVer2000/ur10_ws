@@ -1,0 +1,1 @@
+/home/river2000/ur10_ws/src/ur_pick_and_place_moveit/launch/pick_copy_launch.py
