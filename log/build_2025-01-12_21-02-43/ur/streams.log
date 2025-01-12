@@ -1,0 +1,44 @@
+[0.040s] Invoking command in '/home/river2000/ur10_ws/build/ur': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble /usr/bin/cmake /home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/river2000/ur10_ws/install/ur
+[0.119s] -- The C compiler identification is GNU 12.3.0
+[0.192s] -- The CXX compiler identification is GNU 11.4.0
+[0.211s] -- Detecting C compiler ABI info
+[0.295s] -- Detecting C compiler ABI info - done
+[0.314s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.315s] -- Detecting C compile features
+[0.316s] -- Detecting C compile features - done
+[0.323s] -- Detecting CXX compiler ABI info
+[0.411s] -- Detecting CXX compiler ABI info - done
+[0.430s] -- Check for working CXX compiler: /usr/lib/ccache/g++ - skipped
+[0.430s] -- Detecting CXX compile features
+[0.431s] -- Detecting CXX compile features - done
+[0.442s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.844s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.914s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.992s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.073s] -- Added test 'lint_cmake' to check CMake code style
+[1.074s] -- Added test 'xmllint' to check XML markup files
+[1.076s] -- Configuring done
+[1.078s] -- Generating done
+[1.080s] -- Build files have been written to: /home/river2000/ur10_ws/build/ur
+[1.085s] Invoked command in '/home/river2000/ur10_ws/build/ur' returned '0': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble /usr/bin/cmake /home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/river2000/ur10_ws/install/ur
+[1.088s] Invoking command in '/home/river2000/ur10_ws/build/ur': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble /usr/bin/cmake --build /home/river2000/ur10_ws/build/ur -- -j16 -l16
+[1.159s] Invoked command in '/home/river2000/ur10_ws/build/ur' returned '0': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble /usr/bin/cmake --build /home/river2000/ur10_ws/build/ur -- -j16 -l16
+[1.161s] Invoking command in '/home/river2000/ur10_ws/build/ur': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble /usr/bin/cmake --install /home/river2000/ur10_ws/build/ur
+[1.170s] -- Install configuration: "Release"
+[1.170s] -- Execute custom install script
+[1.171s] -- Symlinking: /home/river2000/ur10_ws/install/ur/share/ament_index/resource_index/package_run_dependencies/ur
+[1.182s] -- Symlinking: /home/river2000/ur10_ws/install/ur/share/ament_index/resource_index/parent_prefix_path/ur
+[1.192s] -- Symlinking: /home/river2000/ur10_ws/install/ur/share/ur/environment/ament_prefix_path.sh
+[1.201s] -- Symlinking: /home/river2000/ur10_ws/install/ur/share/ur/environment/ament_prefix_path.dsv
+[1.212s] -- Symlinking: /home/river2000/ur10_ws/install/ur/share/ur/environment/path.sh
+[1.223s] -- Symlinking: /home/river2000/ur10_ws/install/ur/share/ur/environment/path.dsv
+[1.233s] -- Symlinking: /home/river2000/ur10_ws/install/ur/share/ur/local_setup.bash
+[1.243s] -- Symlinking: /home/river2000/ur10_ws/install/ur/share/ur/local_setup.sh
+[1.252s] -- Symlinking: /home/river2000/ur10_ws/install/ur/share/ur/local_setup.zsh
+[1.262s] -- Symlinking: /home/river2000/ur10_ws/install/ur/share/ur/local_setup.dsv
+[1.273s] -- Symlinking: /home/river2000/ur10_ws/install/ur/share/ur/package.dsv
+[1.283s] -- Symlinking: /home/river2000/ur10_ws/install/ur/share/ament_index/resource_index/packages/ur
+[1.293s] -- Symlinking: /home/river2000/ur10_ws/install/ur/share/ur/cmake/urConfig.cmake
+[1.304s] -- Symlinking: /home/river2000/ur10_ws/install/ur/share/ur/cmake/urConfig-version.cmake
+[1.314s] -- Symlinking: /home/river2000/ur10_ws/install/ur/share/ur/package.xml
+[1.338s] Invoked command in '/home/river2000/ur10_ws/build/ur' returned '0': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble /usr/bin/cmake --install /home/river2000/ur10_ws/build/ur

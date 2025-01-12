@@ -1,0 +1,64 @@
+[0.026s] Invoking command in '/home/river2000/ur10_ws/build/ur_bringup': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/river2000/ur10_ws/install/ur_controllers/lib:/home/river2000/ur10_ws/install/ur_dashboard_msgs/lib:/home/river2000/ur10_ws/install/ur_robot_driver/lib:/usr/local/cuda-11.8/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_bringup -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/river2000/ur10_ws/install/ur_bringup
+[0.118s] -- The C compiler identification is GNU 12.3.0
+[0.198s] -- The CXX compiler identification is GNU 11.4.0
+[0.210s] -- Detecting C compiler ABI info
+[0.287s] -- Detecting C compiler ABI info - done
+[0.294s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.294s] -- Detecting C compile features
+[0.294s] -- Detecting C compile features - done
+[0.297s] -- Detecting CXX compiler ABI info
+[0.382s] -- Detecting CXX compiler ABI info - done
+[0.389s] -- Check for working CXX compiler: /usr/lib/ccache/g++ - skipped
+[0.389s] -- Detecting CXX compile features
+[0.389s] -- Detecting CXX compile features - done
+[0.393s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.765s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.827s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.960s] -- Configuring done
+[0.963s] -- Generating done
+[0.964s] -- Build files have been written to: /home/river2000/ur10_ws/build/ur_bringup
+[0.969s] Invoked command in '/home/river2000/ur10_ws/build/ur_bringup' returned '0': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/river2000/ur10_ws/install/ur_controllers/lib:/home/river2000/ur10_ws/install/ur_dashboard_msgs/lib:/home/river2000/ur10_ws/install/ur_robot_driver/lib:/usr/local/cuda-11.8/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/river2000/ur10_ws/src/Universal_Robots_ROS2_Driver/ur_bringup -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/river2000/ur10_ws/install/ur_bringup
+[0.972s] Invoking command in '/home/river2000/ur10_ws/build/ur_bringup': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/river2000/ur10_ws/install/ur_controllers/lib:/home/river2000/ur10_ws/install/ur_dashboard_msgs/lib:/home/river2000/ur10_ws/install/ur_robot_driver/lib:/usr/local/cuda-11.8/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/river2000/ur10_ws/build/ur_bringup -- -j16 -l16
+[1.036s] Invoked command in '/home/river2000/ur10_ws/build/ur_bringup' returned '0': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/river2000/ur10_ws/install/ur_controllers/lib:/home/river2000/ur10_ws/install/ur_dashboard_msgs/lib:/home/river2000/ur10_ws/install/ur_robot_driver/lib:/usr/local/cuda-11.8/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/river2000/ur10_ws/build/ur_bringup -- -j16 -l16
+[1.038s] Invoking command in '/home/river2000/ur10_ws/build/ur_bringup': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/river2000/ur10_ws/install/ur_controllers/lib:/home/river2000/ur10_ws/install/ur_dashboard_msgs/lib:/home/river2000/ur10_ws/install/ur_robot_driver/lib:/usr/local/cuda-11.8/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/river2000/ur10_ws/build/ur_bringup
+[1.046s] -- Install configuration: "Release"
+[1.047s] -- Execute custom install script
+[1.047s] -- Symlinking: /home/river2000/ur10_ws/install/ur_bringup/share/ur_bringup/config/test_goal_publishers_config.yaml
+[1.057s] -- Symlinking: /home/river2000/ur10_ws/install/ur_bringup/share/ur_bringup/config/test_velocity_goal_publishers_config.yaml
+[1.068s] -- Symlinking: /home/river2000/ur10_ws/install/ur_bringup/share/ur_bringup/config/ur10_update_rate.yaml
+[1.078s] -- Symlinking: /home/river2000/ur10_ws/install/ur_bringup/share/ur_bringup/config/ur10e_update_rate.yaml
+[1.087s] -- Symlinking: /home/river2000/ur10_ws/install/ur_bringup/share/ur_bringup/config/ur16e_update_rate.yaml
+[1.098s] -- Symlinking: /home/river2000/ur10_ws/install/ur_bringup/share/ur_bringup/config/ur3_update_rate.yaml
+[1.108s] -- Symlinking: /home/river2000/ur10_ws/install/ur_bringup/share/ur_bringup/config/ur3e_update_rate.yaml
+[1.118s] -- Symlinking: /home/river2000/ur10_ws/install/ur_bringup/share/ur_bringup/config/ur5_update_rate.yaml
+[1.138s] -- Symlinking: /home/river2000/ur10_ws/install/ur_bringup/share/ur_bringup/config/ur5e_update_rate.yaml
+[1.149s] -- Symlinking: /home/river2000/ur10_ws/install/ur_bringup/share/ur_bringup/config/ur_controllers.yaml
+[1.168s] -- Symlinking: /home/river2000/ur10_ws/install/ur_bringup/share/ur_bringup/launch/test_forward_velocity_controller.launch.py
+[1.179s] -- Symlinking: /home/river2000/ur10_ws/install/ur_bringup/share/ur_bringup/launch/test_joint_trajectory_controller.launch.py
+[1.189s] -- Symlinking: /home/river2000/ur10_ws/install/ur_bringup/share/ur_bringup/launch/test_scaled_joint_trajectory_controller.launch.py
+[1.199s] -- Symlinking: /home/river2000/ur10_ws/install/ur_bringup/share/ur_bringup/launch/ur10.launch.py
+[1.210s] -- Symlinking: /home/river2000/ur10_ws/install/ur_bringup/share/ur_bringup/launch/ur10e.launch.py
+[1.220s] -- Symlinking: /home/river2000/ur10_ws/install/ur_bringup/share/ur_bringup/launch/ur16e.launch.py
+[1.230s] -- Symlinking: /home/river2000/ur10_ws/install/ur_bringup/share/ur_bringup/launch/ur3.launch.py
+[1.240s] -- Symlinking: /home/river2000/ur10_ws/install/ur_bringup/share/ur_bringup/launch/ur3e.launch.py
+[1.250s] -- Symlinking: /home/river2000/ur10_ws/install/ur_bringup/share/ur_bringup/launch/ur5.launch.py
+[1.260s] -- Symlinking: /home/river2000/ur10_ws/install/ur_bringup/share/ur_bringup/launch/ur5e.launch.py
+[1.271s] -- Symlinking: /home/river2000/ur10_ws/install/ur_bringup/share/ur_bringup/launch/ur_control.launch.py
+[1.281s] -- Symlinking: /home/river2000/ur10_ws/install/ur_bringup/share/ur_bringup/launch/ur_dashboard_client.launch.py
+[1.291s] -- Symlinking: /home/river2000/ur10_ws/install/ur_bringup/lib/ur_bringup/start_ursim.sh
+[1.301s] -- Symlinking: /home/river2000/ur10_ws/install/ur_bringup/share/ament_index/resource_index/package_run_dependencies/ur_bringup
+[1.311s] -- Symlinking: /home/river2000/ur10_ws/install/ur_bringup/share/ament_index/resource_index/parent_prefix_path/ur_bringup
+[1.322s] -- Symlinking: /home/river2000/ur10_ws/install/ur_bringup/share/ur_bringup/environment/ament_prefix_path.sh
+[1.342s] -- Symlinking: /home/river2000/ur10_ws/install/ur_bringup/share/ur_bringup/environment/ament_prefix_path.dsv
+[1.361s] -- Symlinking: /home/river2000/ur10_ws/install/ur_bringup/share/ur_bringup/environment/path.sh
+[1.372s] -- Symlinking: /home/river2000/ur10_ws/install/ur_bringup/share/ur_bringup/environment/path.dsv
+[1.383s] -- Symlinking: /home/river2000/ur10_ws/install/ur_bringup/share/ur_bringup/local_setup.bash
+[1.392s] -- Symlinking: /home/river2000/ur10_ws/install/ur_bringup/share/ur_bringup/local_setup.sh
+[1.402s] -- Symlinking: /home/river2000/ur10_ws/install/ur_bringup/share/ur_bringup/local_setup.zsh
+[1.412s] -- Symlinking: /home/river2000/ur10_ws/install/ur_bringup/share/ur_bringup/local_setup.dsv
+[1.422s] -- Symlinking: /home/river2000/ur10_ws/install/ur_bringup/share/ur_bringup/package.dsv
+[1.432s] -- Symlinking: /home/river2000/ur10_ws/install/ur_bringup/share/ament_index/resource_index/packages/ur_bringup
+[1.443s] -- Symlinking: /home/river2000/ur10_ws/install/ur_bringup/share/ur_bringup/cmake/ur_bringupConfig.cmake
+[1.462s] -- Symlinking: /home/river2000/ur10_ws/install/ur_bringup/share/ur_bringup/cmake/ur_bringupConfig-version.cmake
+[1.473s] -- Symlinking: /home/river2000/ur10_ws/install/ur_bringup/share/ur_bringup/package.xml
+[1.487s] Invoked command in '/home/river2000/ur10_ws/build/ur_bringup' returned '0': CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_controllers:/home/river2000/ur10_ws/install/ur_description:/home/river2000/ur10_ws/install/ur_dashboard_msgs:/home/river2000/ur10_ws/install/ur:/home/river2000/ur10_ws/install/ur_calibration:/home/river2000/ur10_ws/install/ur_robot_driver:/home/river2000/ur10_ws/install/ur_pick_and_place_moveit:/home/river2000/ur10_ws/install/ur_moveit_config:/home/river2000/ur10_ws/install/ur_bringup:/home/river2000/ur10_ws/install/ros2_ur_moveit_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/river2000/ur10_ws/install/ur_controllers/lib:/home/river2000/ur10_ws/install/ur_dashboard_msgs/lib:/home/river2000/ur10_ws/install/ur_robot_driver/lib:/usr/local/cuda-11.8/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/river2000/ur10_ws/build/ur_bringup
