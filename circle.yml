@@ -1,5 +1,5 @@
 name: vicon
-root: ../../../
+root: ~/ur10_ws
 startup_window: core
 pre_window: source ~/.zshrc; source ~/ur10_ws/install/setup.zsh
 windows:
