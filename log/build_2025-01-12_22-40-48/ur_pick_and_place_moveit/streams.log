@@ -1,0 +1,24 @@
+[0.037s] Invoking command in '/home/river2000/ur10_ws/build/ur_pick_and_place_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/river2000/ur10_ws/build/ur_pick_and_place_moveit -- -j16 -l16
+[0.168s] [100%] Built target ur_pick_and_place_moveit
+[0.194s] Invoked command in '/home/river2000/ur10_ws/build/ur_pick_and_place_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/river2000/ur10_ws/build/ur_pick_and_place_moveit -- -j16 -l16
+[0.197s] Invoking command in '/home/river2000/ur10_ws/build/ur_pick_and_place_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/river2000/ur10_ws/build/ur_pick_and_place_moveit
+[0.211s] -- Install configuration: "Release"
+[0.211s] -- Execute custom install script
+[0.212s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_pick_and_place_moveit/lib/ur_pick_and_place_moveit/ur_pick_and_place_moveit
+[0.213s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_pick_and_place_moveit/share/ur_pick_and_place_moveit//launch/pick_and_place_moveit_launch.py
+[0.213s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_pick_and_place_moveit/share/ament_index/resource_index/package_run_dependencies/ur_pick_and_place_moveit
+[0.214s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_pick_and_place_moveit/share/ament_index/resource_index/parent_prefix_path/ur_pick_and_place_moveit
+[0.214s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_pick_and_place_moveit/share/ur_pick_and_place_moveit/environment/ament_prefix_path.sh
+[0.214s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_pick_and_place_moveit/share/ur_pick_and_place_moveit/environment/ament_prefix_path.dsv
+[0.214s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_pick_and_place_moveit/share/ur_pick_and_place_moveit/environment/path.sh
+[0.214s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_pick_and_place_moveit/share/ur_pick_and_place_moveit/environment/path.dsv
+[0.214s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_pick_and_place_moveit/share/ur_pick_and_place_moveit/local_setup.bash
+[0.215s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_pick_and_place_moveit/share/ur_pick_and_place_moveit/local_setup.sh
+[0.215s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_pick_and_place_moveit/share/ur_pick_and_place_moveit/local_setup.zsh
+[0.215s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_pick_and_place_moveit/share/ur_pick_and_place_moveit/local_setup.dsv
+[0.215s] -- Symlinking: /home/river2000/ur10_ws/install/ur_pick_and_place_moveit/share/ur_pick_and_place_moveit/package.dsv
+[0.234s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_pick_and_place_moveit/share/ament_index/resource_index/packages/ur_pick_and_place_moveit
+[0.234s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_pick_and_place_moveit/share/ur_pick_and_place_moveit/cmake/ur_pick_and_place_moveitConfig.cmake
+[0.234s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_pick_and_place_moveit/share/ur_pick_and_place_moveit/cmake/ur_pick_and_place_moveitConfig-version.cmake
+[0.234s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_pick_and_place_moveit/share/ur_pick_and_place_moveit/package.xml
+[0.270s] Invoked command in '/home/river2000/ur10_ws/build/ur_pick_and_place_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/river2000/ur10_ws/build/ur_pick_and_place_moveit

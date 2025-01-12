@@ -1,0 +1,24 @@
+[0.030s] Invoking command in '/home/river2000/ur10_ws/build/ros2_ur_moveit_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/river2000/ur10_ws/build/ros2_ur_moveit_examples -- -j16 -l16
+[0.151s] [100%] Built target hello_moveit
+[0.177s] Invoked command in '/home/river2000/ur10_ws/build/ros2_ur_moveit_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/river2000/ur10_ws/build/ros2_ur_moveit_examples -- -j16 -l16
+[0.183s] Invoking command in '/home/river2000/ur10_ws/build/ros2_ur_moveit_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/river2000/ur10_ws/build/ros2_ur_moveit_examples
+[0.195s] -- Install configuration: "Release"
+[0.196s] -- Execute custom install script
+[0.197s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ros2_ur_moveit_examples/launch/hello_moveit.launch.py
+[0.197s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/lib/ros2_ur_moveit_examples/hello_moveit
+[0.197s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ament_index/resource_index/package_run_dependencies/ros2_ur_moveit_examples
+[0.198s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ament_index/resource_index/parent_prefix_path/ros2_ur_moveit_examples
+[0.198s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ros2_ur_moveit_examples/environment/ament_prefix_path.sh
+[0.198s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ros2_ur_moveit_examples/environment/ament_prefix_path.dsv
+[0.198s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ros2_ur_moveit_examples/environment/path.sh
+[0.199s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ros2_ur_moveit_examples/environment/path.dsv
+[0.199s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ros2_ur_moveit_examples/local_setup.bash
+[0.201s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ros2_ur_moveit_examples/local_setup.sh
+[0.201s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ros2_ur_moveit_examples/local_setup.zsh
+[0.201s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ros2_ur_moveit_examples/local_setup.dsv
+[0.202s] -- Symlinking: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ros2_ur_moveit_examples/package.dsv
+[0.219s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ament_index/resource_index/packages/ros2_ur_moveit_examples
+[0.220s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ros2_ur_moveit_examples/cmake/ros2_ur_moveit_examplesConfig.cmake
+[0.220s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ros2_ur_moveit_examples/cmake/ros2_ur_moveit_examplesConfig-version.cmake
+[0.220s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ros2_ur_moveit_examples/share/ros2_ur_moveit_examples/package.xml
+[0.247s] Invoked command in '/home/river2000/ur10_ws/build/ros2_ur_moveit_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/river2000/ur10_ws/build/ros2_ur_moveit_examples

@@ -1,0 +1,56 @@
+[0.024s] Invoking command in '/home/river2000/ur10_ws/build/ur_controllers': AMENT_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/river2000/ur10_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/river2000/ur10_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/river2000/ur10_ws/build/ur_controllers -- -j16 -l16
+[0.130s] [  8%] Built target speed_scaling_state_broadcaster_parameters
+[0.130s] [  8%] Built target freedrive_mode_controller_parameters
+[0.130s] [ 12%] Built target ur_configuration_controller_parameters
+[0.132s] [ 20%] Built target gmock_main
+[0.132s] [ 25%] Built target gpio_controller_parameters
+[0.132s] [ 33%] Built target passthrough_trajectory_controller_parameters
+[0.132s] [ 33%] Built target scaled_joint_trajectory_controller_parameters
+[0.133s] [ 37%] Built target force_mode_controller_parameters
+[0.145s] [ 50%] Built target gmock
+[0.200s] [ 83%] Built target ur_controllers
+[0.252s] [100%] Built target test_load_force_mode_controller
+[0.253s] [100%] Built target test_load_freedrive_mode_controller
+[0.274s] Invoked command in '/home/river2000/ur10_ws/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/river2000/ur10_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/river2000/ur10_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/river2000/ur10_ws/build/ur_controllers -- -j16 -l16
+[0.276s] Invoking command in '/home/river2000/ur10_ws/build/ur_controllers': AMENT_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/river2000/ur10_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/river2000/ur10_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/river2000/ur10_ws/build/ur_controllers
+[0.290s] -- Install configuration: "Release"
+[0.290s] -- Execute custom install script
+[0.291s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/include/force_mode_controller_parameters/force_mode_controller_parameters.hpp
+[0.291s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/include/gpio_controller_parameters/gpio_controller_parameters.hpp
+[0.291s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/include/speed_scaling_state_broadcaster_parameters/speed_scaling_state_broadcaster_parameters.hpp
+[0.292s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/include/scaled_joint_trajectory_controller_parameters/scaled_joint_trajectory_controller_parameters.hpp
+[0.292s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/include/freedrive_mode_controller_parameters/freedrive_mode_controller_parameters.hpp
+[0.293s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/include/passthrough_trajectory_controller_parameters/passthrough_trajectory_controller_parameters.hpp
+[0.293s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/include/ur_configuration_controller_parameters/ur_configuration_controller_parameters.hpp
+[0.293s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers//controller_plugins.xml
+[0.293s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/lib/libur_controllers.so
+[0.294s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/include/ur_controllers/force_mode_controller.hpp
+[0.294s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp
+[0.294s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/include/ur_controllers/gpio_controller.hpp
+[0.295s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller.hpp
+[0.295s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.hpp
+[0.295s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster.hpp
+[0.295s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller.hpp
+[0.295s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[0.295s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/environment/library_path.sh
+[0.296s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/environment/library_path.dsv
+[0.296s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ament_index/resource_index/package_run_dependencies/ur_controllers
+[0.296s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ament_index/resource_index/parent_prefix_path/ur_controllers
+[0.296s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.sh
+[0.297s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.dsv
+[0.297s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/environment/path.sh
+[0.297s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/environment/path.dsv
+[0.297s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/local_setup.bash
+[0.298s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/local_setup.sh
+[0.298s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/local_setup.zsh
+[0.298s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/local_setup.dsv
+[0.298s] -- Symlinking: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/package.dsv
+[0.314s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ament_index/resource_index/packages/ur_controllers
+[0.314s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ur_controllers
+[0.314s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.315s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.315s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[0.315s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig.cmake
+[0.315s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig-version.cmake
+[0.315s] -- Up-to-date symlink: /home/river2000/ur10_ws/install/ur_controllers/share/ur_controllers/package.xml
+[0.320s] Invoked command in '/home/river2000/ur10_ws/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/river2000/ur10_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/river2000/ur10_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/river2000/ur10_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/river2000/ur10_ws/build/ur_controllers

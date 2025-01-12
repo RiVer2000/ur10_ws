@@ -6,6 +6,6 @@ windows:
   - core:
       layout: main-horizontal
       panes:
-        - ros2 launch ur_robot_driver ur_control.launch.py ur_type:=ur3e robot_ip:=192.168.56.101 use_fake_hardware:=true launch_rviz:=false
-        - sleep 2; ros2 launch ur_moveit_config ur_moveit.launch.py ur_type:=ur3e launch_rviz:=true robot_ip:=192.168.56.101
+        - ros2 launch ur_robot_driver ur_control.launch.py ur_type:=ur10 robot_ip:=192.168.56.101 use_fake_hardware:=true launch_rviz:=false
+        - sleep 2; ros2 launch ur_moveit_config ur_moveit.launch.py ur_type:=ur10 launch_rviz:=true robot_ip:=192.168.56.101
         - sleep 2; source install/setup.zsh; ros2 launch ur_pick_and_place_moveit pick_and_place_moveit_launch.py
