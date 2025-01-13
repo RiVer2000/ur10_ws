@@ -1,13 +1,13 @@
-name: vicon
+name: circle
 root: ~/ur10_ws
 startup_window: core
-pre_window: source ~/.zshrc; source ~/ur10_ws/install/setup.zsh
+pre_window: source ~/.zshrc
 windows:
   - core:
       layout: main-horizontal
       panes:
-        - ros2 launch ur_robot_driver ur_control.launch.py ur_type:=ur10 robot_ip:=192.168.56.101 use_fake_hardware:=true launch_rviz:=false initial_joint_controller:=joint_trajectory_controller
-        - sleep 2; ros2 launch ur_moveit_config ur_moveit.launch.py ur_type:=ur10 launch_rviz:=true use_fake_hardware:=true
+        - ros2 launch ur_robot_driver ur_control.launch.py ur_type:=ur10 robot_ip:=192.168.56.101 use_fake_hardware:=true launch_rviz:=false 
+        - sleep 2; ros2 launch ur_moveit_config ur_moveit.launch.py ur_type:=ur10 launch_rviz:=true use_fake_hardware:=true robot_ip:=192.168.56.101
         - sleep 3; ros2 run tf2_ros static_transform_publisher 0 0 0.1 0.0 0.0 0.0 tool0 gripper
         - sleep 3; ros2 run tf2_ros static_transform_publisher 0.5 0.5 0.1 0.0 3.14 0.0 base_link object
         - sleep 5; ros2 launch ros2_ur_moveit_examples hello_moveit.launch.py
